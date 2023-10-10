@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "pico-sdk/src/common/pico_divider",
+		"source" : "/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_divider"
+	}
+}

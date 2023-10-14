@@ -1,14 +1,13 @@
 #include "line_sensor.h"
 
+// init global variables
+bool g_left_ir_triggered = false;
+bool g_right_ir_triggered = false;
+
 int main () 
 {
     stdio_init_all();
-    // TOFIX: if one of the sensor is not connected, the pin will be assigned to the other isr
-    // e.g if LEFT_IR_SENSOR_PIN is not connected, then
-    // LEFT_IR_SENSOR_PIN will be assigned to right_line_sensor_isr
-    ir_sensor_init(LEFT_IR_SENSOR_PIN, &left_line_sensor_isr);
-    ir_sensor_init(RIGHT_IR_SENSOR_PIN, &right_line_sensor_isr);
-
+    ir_sensor_init();
     while (1) 
     {
         if (g_left_ir_triggered && g_right_ir_triggered) 

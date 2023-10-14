@@ -3,13 +3,7 @@
  */
 
 #include "line_sensor.h"
-// init global variables
-bool g_left_ir_triggered = false;
-bool g_right_ir_triggered = false;
 
-
-
-// global variables for other modules to use
 
 bool debounce (uint gpio, uint32_t events) 
 {
@@ -33,45 +27,45 @@ bool debounce (uint gpio, uint32_t events)
 
     return true;
 }
+
 // code calling this needs to set the state of the ir sensor to false after reading
-void left_line_sensor_isr (uint gpio, uint32_t events) 
+void line_sensor_isr (uint gpio, uint32_t events) 
 {
 
     //ir_triggered = true;
     // if passed debounce
     if (debounce(gpio, events))
     {
-        // set state of left line sensor
-        printf("left line sensor debounce\n");
-        g_left_ir_triggered = true;
-    }
-
-}
-// code calling this needs to set the state of the ir sensor to false after reading
-void right_line_sensor_isr (uint gpio, uint32_t events) 
-{
-
-    // if passed debounce
-    if (debounce(gpio, events))
-    {
-        // set state of right line sensor
-        printf("right line sensor debounce\n");
-        g_right_ir_triggered = true;
+        if (gpio == LEFT_IR_SENSOR_PIN)
+        {
+            // set state of left line sensor
+            printf("left line sensor debounce\n");
+            g_left_ir_triggered = true;
+        }
+        else if (gpio == RIGHT_IR_SENSOR_PIN)
+        {
+            // set state of right line sensor
+            printf("right line sensor debounce\n");
+            g_right_ir_triggered = true;
+        }
+        else
+        {
+            // Do nothing
+        }
+        
     }
 
 }
 
 // init ir sensor on gpio pin
-void ir_sensor_init (uint ir_sensor_pin, void * ir_sensor_isr) 
+void ir_sensor_init ()
 {
-    gpio_init(ir_sensor_pin);
-    gpio_set_dir(ir_sensor_pin, GPIO_IN);
-    gpio_set_irq_enabled_with_callback(ir_sensor_pin, GPIO_IRQ_EDGE_RISE, true, ir_sensor_isr);
-    // for multi interrupt
-    //gpio_set_irq_enabled(ir_sensor_pin, GPIO_IRQ_EDGE_RISE, true);
-    //gpio_add_raw_irq_handler(ir_sensor_pin, ir_sensor_isr);
-    // this only need to do once after init
-    //irq_set_enabled(IO_IRQ_BANK0, true);
+    gpio_init(LEFT_IR_SENSOR_PIN);
+    gpio_init(RIGHT_IR_SENSOR_PIN);
+    gpio_set_dir(LEFT_IR_SENSOR_PIN, GPIO_IN);
+    gpio_set_dir(RIGHT_IR_SENSOR_PIN, GPIO_IN);
+    gpio_set_irq_enabled_with_callback(LEFT_IR_SENSOR_PIN, GPIO_IRQ_EDGE_FALL, true, &line_sensor_isr);
+    gpio_set_irq_enabled(RIGHT_IR_SENSOR_PIN, GPIO_IRQ_EDGE_FALL, true);
 }
 
 

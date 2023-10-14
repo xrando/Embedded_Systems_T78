@@ -10,9 +10,8 @@
 
 // function prototypes
 bool debounce (uint gpio, uint32_t events);
-void left_line_sensor_isr (uint gpio, uint32_t events);
-void right_line_sensor_isr (uint gpio, uint32_t events);
-void ir_sensor_init (uint ir_sensor_pin, void * ir_sensor_isr);
+void line_sensor_isr (uint gpio, uint32_t events);
+void ir_sensor_init ();
 
 // extern global variables for other modules to use
 extern bool g_left_ir_triggered;

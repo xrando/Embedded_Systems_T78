@@ -67,6 +67,11 @@ void ir_sensor_init (uint ir_sensor_pin, void * ir_sensor_isr)
     gpio_init(ir_sensor_pin);
     gpio_set_dir(ir_sensor_pin, GPIO_IN);
     gpio_set_irq_enabled_with_callback(ir_sensor_pin, GPIO_IRQ_EDGE_RISE, true, ir_sensor_isr);
+    // for multi interrupt
+    //gpio_set_irq_enabled(ir_sensor_pin, GPIO_IRQ_EDGE_RISE, true);
+    //gpio_add_raw_irq_handler(ir_sensor_pin, ir_sensor_isr);
+    // this only need to do once after init
+    //irq_set_enabled(IO_IRQ_BANK0, true);
 }
 
 

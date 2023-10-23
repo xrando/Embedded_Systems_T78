@@ -64,8 +64,8 @@ void ir_sensor_init ()
     gpio_init(RIGHT_IR_SENSOR_PIN);
     gpio_set_dir(LEFT_IR_SENSOR_PIN, GPIO_IN);
     gpio_set_dir(RIGHT_IR_SENSOR_PIN, GPIO_IN);
-    gpio_set_irq_enabled_with_callback(LEFT_IR_SENSOR_PIN, GPIO_IRQ_EDGE_FALL, true, &line_sensor_isr);
-    gpio_set_irq_enabled(RIGHT_IR_SENSOR_PIN, GPIO_IRQ_EDGE_FALL, true);
+    gpio_set_irq_enabled_with_callback(LEFT_IR_SENSOR_PIN, GPIO_IRQ_EDGE_RISE, true, &line_sensor_isr);
+    gpio_set_irq_enabled(RIGHT_IR_SENSOR_PIN, GPIO_IRQ_EDGE_RISE, true);
 }
 
 

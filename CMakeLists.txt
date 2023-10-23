@@ -16,7 +16,7 @@ set(PROGRAM_NAME embedded_team78)
 
 pico_sdk_init()
 
-add_subdirectory(barcode_sensor)
+add_subdirectory(barcode_module)
 add_subdirectory(line_sensor)
 add_subdirectory(motor)
 add_subdirectory(web-ui)

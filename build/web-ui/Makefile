@@ -117,33 +117,33 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-web-ui/CMakeFiles/embedded_team78.dir/rule:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 web-ui/CMakeFiles/embedded_team78.dir/rule
-.PHONY : web-ui/CMakeFiles/embedded_team78.dir/rule
+web-ui/CMakeFiles/web-ui.dir/rule:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 web-ui/CMakeFiles/web-ui.dir/rule
+.PHONY : web-ui/CMakeFiles/web-ui.dir/rule
 
 # Convenience name for target.
-embedded_team78: web-ui/CMakeFiles/embedded_team78.dir/rule
-.PHONY : embedded_team78
+web-ui: web-ui/CMakeFiles/web-ui.dir/rule
+.PHONY : web-ui
 
 # fast build rule for target.
-embedded_team78/fast:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/build
-.PHONY : embedded_team78/fast
+web-ui/fast:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/build
+.PHONY : web-ui/fast
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
@@ -151,23 +151,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
@@ -175,23 +175,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
@@ -199,23 +199,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
@@ -223,23 +223,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_lib.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_lib.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_lib.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_lib.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_lib.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_lib.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_lib.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_lib.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_lib.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_lib.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s
@@ -247,23 +247,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_lib.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_msg.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_msg.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_msg.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_msg.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_msg.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_msg.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_msg.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_msg.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_msg.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_msg.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s
@@ -271,23 +271,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_msg.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/err.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/err.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/err.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/err.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/err.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/err.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/err.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/err.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/err.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/err.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/err.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/err.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/err.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/err.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/err.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/err.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/err.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/err.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/err.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/err.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/err.c.s
@@ -295,23 +295,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/err.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/err.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/err.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/err.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/if_api.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/if_api.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/if_api.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/if_api.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/if_api.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/if_api.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/if_api.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/if_api.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/if_api.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/if_api.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/if_api.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/if_api.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/if_api.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/if_api.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/if_api.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/if_api.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/if_api.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/if_api.c.s
@@ -319,23 +319,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/if_api.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/if_api.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/if_api.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/if_api.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netbuf.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netbuf.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netbuf.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netbuf.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netbuf.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netbuf.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netbuf.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netbuf.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netbuf.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netbuf.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s
@@ -343,23 +343,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netbuf.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netdb.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netdb.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netdb.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netdb.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netdb.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netdb.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netdb.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netdb.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netdb.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netdb.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netdb.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netdb.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netdb.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netdb.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netdb.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netdb.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netdb.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netdb.c.s
@@ -367,23 +367,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netdb.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netdb.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netdb.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netdb.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netifapi.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netifapi.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netifapi.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netifapi.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netifapi.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netifapi.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netifapi.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netifapi.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netifapi.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netifapi.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s
@@ -391,23 +391,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netifapi.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/sockets.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/sockets.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/sockets.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/sockets.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/sockets.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/sockets.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/sockets.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/sockets.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/sockets.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/sockets.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/sockets.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/sockets.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/sockets.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/sockets.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/sockets.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/sockets.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/sockets.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/sockets.c.s
@@ -415,23 +415,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/sockets.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/sockets.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/sockets.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/sockets.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/tcpip.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/tcpip.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/tcpip.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/tcpip.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/tcpip.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/tcpip.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/tcpip.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/tcpip.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/tcpip.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/tcpip.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s
@@ -439,23 +439,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/tcpip.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.s
@@ -463,23 +463,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/app
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/fs.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/fs.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/fs.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/fs.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/fs.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/fs.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/fs.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.s
@@ -487,23 +487,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/app
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/fs.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/http_client.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/http_client.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/http_client.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/http_client.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/http_client.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/http_client.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/http_client.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.s
@@ -511,23 +511,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/app
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/http_client.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/httpd.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/httpd.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/httpd.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/httpd.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/httpd.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/httpd.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/httpd.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.s
@@ -535,23 +535,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/app
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/httpd.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp.c.s
@@ -559,23 +559,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
@@ -583,23 +583,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
@@ -607,23 +607,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/def.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/def.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/def.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/def.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/def.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/def.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/def.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/def.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/def.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/def.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/def.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/def.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/def.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/def.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/def.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/def.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/def.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/def.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/def.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/def.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/def.c.s
@@ -631,23 +631,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/def.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/def.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/def.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/def.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/dns.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/dns.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/dns.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/dns.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/dns.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/dns.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/dns.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/dns.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/dns.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/dns.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/dns.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/dns.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/dns.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/dns.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/dns.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/dns.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/dns.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/dns.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/dns.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/dns.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/dns.c.s
@@ -655,23 +655,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/dns.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/dns.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/dns.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/dns.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/inet_chksum.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/inet_chksum.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/inet_chksum.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/inet_chksum.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/inet_chksum.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/inet_chksum.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/inet_chksum.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
@@ -679,23 +679,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/inet_chksum.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/init.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/init.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/init.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/init.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/init.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/init.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/init.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/init.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/init.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/init.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/init.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/init.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/init.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/init.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/init.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/init.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/init.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/init.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/init.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/init.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/init.c.s
@@ -703,23 +703,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/init.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/init.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/init.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/init.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ip.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ip.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ip.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ip.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ip.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ip.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ip.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ip.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ip.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ip.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ip.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ip.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ip.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ip.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ip.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ip.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ip.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ip.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ip.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ip.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ip.c.s
@@ -727,23 +727,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ip.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ip.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ip.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ip.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
@@ -751,23 +751,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
@@ -775,23 +775,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
@@ -799,23 +799,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
@@ -823,23 +823,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
@@ -847,23 +847,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
@@ -871,23 +871,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
@@ -895,23 +895,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
@@ -919,23 +919,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
@@ -943,23 +943,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
@@ -967,23 +967,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
@@ -991,23 +991,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
@@ -1015,23 +1015,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
@@ -1039,23 +1039,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
@@ -1063,23 +1063,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
@@ -1087,23 +1087,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
@@ -1111,23 +1111,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
@@ -1135,23 +1135,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
@@ -1159,23 +1159,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/mem.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/mem.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/mem.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/mem.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/mem.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/mem.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/mem.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/mem.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/mem.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/mem.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/mem.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/mem.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/mem.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/mem.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/mem.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/mem.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/mem.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/mem.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/mem.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/mem.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/mem.c.s
@@ -1183,23 +1183,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/mem.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/mem.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/mem.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/mem.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/memp.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/memp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/memp.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/memp.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/memp.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/memp.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/memp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/memp.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/memp.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/memp.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/memp.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/memp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/memp.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/memp.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/memp.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/memp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/memp.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/memp.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/memp.c.s
@@ -1207,23 +1207,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/memp.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/memp.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/memp.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/memp.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/netif.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/netif.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/netif.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/netif.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/netif.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/netif.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/netif.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/netif.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/netif.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/netif.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/netif.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/netif.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/netif.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/netif.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/netif.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/netif.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/netif.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/netif.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/netif.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/netif.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/netif.c.s
@@ -1231,23 +1231,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/netif.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/netif.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/netif.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/netif.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/pbuf.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/pbuf.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/pbuf.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/pbuf.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/pbuf.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/pbuf.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/pbuf.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/pbuf.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/pbuf.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/pbuf.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s
@@ -1255,23 +1255,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/pbuf.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/raw.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/raw.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/raw.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/raw.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/raw.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/raw.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/raw.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/raw.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/raw.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/raw.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/raw.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/raw.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/raw.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/raw.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/raw.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/raw.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/raw.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/raw.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/raw.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/raw.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/raw.c.s
@@ -1279,23 +1279,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/raw.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/raw.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/raw.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/raw.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/stats.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/stats.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/stats.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/stats.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/stats.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/stats.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/stats.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/stats.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/stats.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/stats.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/stats.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/stats.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/stats.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/stats.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/stats.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/stats.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/stats.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/stats.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/stats.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/stats.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/stats.c.s
@@ -1303,23 +1303,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/stats.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/stats.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/stats.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/stats.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/sys.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/sys.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/sys.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/sys.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/sys.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/sys.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/sys.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/sys.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/sys.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/sys.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/sys.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/sys.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/sys.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/sys.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/sys.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/sys.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/sys.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/sys.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/sys.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/sys.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/sys.c.s
@@ -1327,23 +1327,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/sys.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/sys.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/sys.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/sys.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp.c.s
@@ -1351,23 +1351,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_in.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_in.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_in.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_in.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_in.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_in.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_in.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s
@@ -1375,23 +1375,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_in.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_out.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_out.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_out.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_out.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_out.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_out.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_out.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s
@@ -1399,23 +1399,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_out.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/timeouts.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/timeouts.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/timeouts.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/timeouts.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/timeouts.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/timeouts.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/timeouts.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/timeouts.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/timeouts.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/timeouts.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s
@@ -1423,23 +1423,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/timeouts.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/udp.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/udp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/udp.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/udp.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/udp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/udp.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/udp.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/udp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/udp.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/udp.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/udp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/udp.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/udp.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/udp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/udp.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/udp.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/udp.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/udp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/udp.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/udp.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/udp.c.s
@@ -1447,23 +1447,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/cor
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/udp.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/udp.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/udp.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/udp.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
@@ -1471,23 +1471,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
@@ -1495,23 +1495,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ethernet.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ethernet.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ethernet.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ethernet.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ethernet.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ethernet.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ethernet.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s
@@ -1519,23 +1519,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ethernet.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
@@ -1543,23 +1543,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
@@ -1567,23 +1567,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
@@ -1591,23 +1591,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
@@ -1615,23 +1615,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
@@ -1639,23 +1639,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
@@ -1663,23 +1663,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
@@ -1687,23 +1687,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
@@ -1711,23 +1711,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
@@ -1735,23 +1735,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
@@ -1759,23 +1759,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
@@ -1783,23 +1783,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
@@ -1807,23 +1807,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
@@ -1831,23 +1831,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
@@ -1855,23 +1855,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
@@ -1879,23 +1879,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
@@ -1903,23 +1903,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
@@ -1927,23 +1927,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
@@ -1951,23 +1951,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
@@ -1975,23 +1975,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
@@ -1999,23 +1999,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
@@ -2023,23 +2023,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
@@ -2047,23 +2047,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
@@ -2071,23 +2071,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
@@ -2095,23 +2095,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
@@ -2119,23 +2119,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
@@ -2143,23 +2143,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
@@ -2167,23 +2167,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
@@ -2191,23 +2191,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
@@ -2215,23 +2215,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
@@ -2239,23 +2239,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
@@ -2263,23 +2263,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
@@ -2287,23 +2287,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
@@ -2311,23 +2311,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/slipif.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/slipif.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/slipif.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/slipif.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/slipif.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/slipif.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/slipif.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/slipif.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/slipif.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/slipif.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s
@@ -2335,23 +2335,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/slipif.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/zepif.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/zepif.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/zepif.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/zepif.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/zepif.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/zepif.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/zepif.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/zepif.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/zepif.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/zepif.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s
@@ -2359,23 +2359,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/net
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/zepif.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
@@ -2383,23 +2383,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
@@ -2407,23 +2407,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
@@ -2431,23 +2431,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
@@ -2455,23 +2455,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
@@ -2479,23 +2479,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
@@ -2503,23 +2503,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
@@ -2527,23 +2527,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
@@ -2551,23 +2551,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
@@ -2575,23 +2575,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
@@ -2599,23 +2599,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
@@ -2623,23 +2623,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
@@ -2647,23 +2647,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
@@ -2671,23 +2671,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
@@ -2695,23 +2695,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
@@ -2719,23 +2719,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
@@ -2743,23 +2743,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
@@ -2767,23 +2767,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/tusb.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/tusb.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/tusb.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/tusb.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/tusb.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/tusb.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/tusb.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/tusb.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/tusb.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/tusb.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/tusb.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/tusb.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
@@ -2791,23 +2791,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/tusb.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/tusb.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
@@ -2815,23 +2815,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
@@ -2839,23 +2839,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.s
@@ -2863,23 +2863,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.s
@@ -2887,23 +2887,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.s
@@ -2911,23 +2911,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
@@ -2935,23 +2935,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.s
@@ -2959,23 +2959,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.s
@@ -2983,23 +2983,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.s
@@ -3007,23 +3007,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_adc/adc.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_adc/adc.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_adc/adc.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
@@ -3031,23 +3031,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/h
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
@@ -3055,23 +3055,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/h
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
@@ -3079,31 +3079,31 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/h
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_dma/dma.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_dma/dma.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_dma/dma.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_dma/dma.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_dma/dma.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
@@ -3111,23 +3111,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/h
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_dma/dma.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_exception/exception.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_exception/exception.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_exception/exception.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_exception/exception.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_exception/exception.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_exception/exception.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_exception/exception.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
@@ -3135,23 +3135,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/h
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_exception/exception.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_flash/flash.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_flash/flash.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
@@ -3159,23 +3159,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/h
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
@@ -3183,23 +3183,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/h
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
@@ -3207,31 +3207,31 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/h
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pio/pio.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pio/pio.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
@@ -3239,23 +3239,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/h
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
@@ -3263,23 +3263,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/h
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
@@ -3287,23 +3287,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/h
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
@@ -3311,23 +3311,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/h
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
@@ -3335,23 +3335,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/h
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
@@ -3359,23 +3359,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/h
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -3383,23 +3383,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/h
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
@@ -3407,23 +3407,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/h
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
@@ -3431,23 +3431,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
@@ -3455,31 +3455,31 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -3487,23 +3487,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
@@ -3511,23 +3511,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
@@ -3535,23 +3535,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
@@ -3559,23 +3559,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
@@ -3583,23 +3583,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
@@ -3607,23 +3607,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
@@ -3631,23 +3631,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
@@ -3655,23 +3655,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
@@ -3679,39 +3679,39 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.o
-
-# target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.o
-
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj
+
+# target to build an object file
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
@@ -3719,23 +3719,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
@@ -3743,31 +3743,31 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
@@ -3775,31 +3775,31 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
@@ -3807,23 +3807,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
@@ -3831,39 +3831,39 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o
-
-# target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
-
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.obj
+
+# target to build an object file
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
@@ -3871,23 +3871,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
@@ -3895,31 +3895,31 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
@@ -3927,23 +3927,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
@@ -3951,23 +3951,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_rand/rand.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_rand/rand.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_rand/rand.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_rand/rand.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_rand/rand.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_rand/rand.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_rand/rand.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s
@@ -3975,23 +3975,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_rand/rand.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
@@ -3999,23 +3999,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
@@ -4023,31 +4023,31 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
@@ -4055,23 +4055,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
@@ -4079,23 +4079,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
@@ -4103,23 +4103,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
@@ -4127,23 +4127,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
@@ -4151,23 +4151,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -4175,23 +4175,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
@@ -4199,8 +4199,32 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.s
+
+main.obj: main.c.obj
+.PHONY : main.obj
+
+# target to build an object file
+main.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/main.c.obj
+.PHONY : main.c.obj
+
+main.i: main.c.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.c.i:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/main.c.i
+.PHONY : main.c.i
+
+main.s: main.c.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.c.s:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/main.c.s
+.PHONY : main.c.s
 
 # Help Target
 help:
@@ -4210,516 +4234,519 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... embedded_team78"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.o"
+	@echo "... web-ui"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ctrl.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_ll.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_lwip.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/cyw43-driver/src/cyw43_stats.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_lib.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_lib.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_lib.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_lib.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_msg.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_msg.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_msg.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/api_msg.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/err.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/err.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/err.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/err.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/if_api.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/if_api.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/if_api.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/if_api.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netbuf.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netbuf.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netbuf.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netbuf.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netdb.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netdb.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netdb.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netdb.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netifapi.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netifapi.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netifapi.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/netifapi.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/sockets.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/sockets.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/sockets.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/sockets.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/tcpip.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/tcpip.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/tcpip.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/api/tcpip.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/altcp_proxyconnect.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/fs.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/fs.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/fs.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/fs.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/http_client.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/http_client.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/http_client.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/http_client.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/httpd.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/httpd.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/httpd.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/apps/http/httpd.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_alloc.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/altcp_tcp.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/def.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/def.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/def.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/def.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/dns.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/dns.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/dns.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/dns.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/inet_chksum.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/inet_chksum.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/inet_chksum.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/inet_chksum.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/init.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/init.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/init.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/init.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ip.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ip.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ip.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ip.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/acd.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/autoip.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/dhcp.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/etharp.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/icmp.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/igmp.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_addr.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv4/ip4_frag.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/dhcp6.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ethip6.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/icmp6.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/inet6.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_addr.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/ip6_frag.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/mld6.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/ipv6/nd6.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/mem.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/mem.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/mem.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/mem.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/memp.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/memp.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/memp.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/memp.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/netif.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/netif.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/netif.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/netif.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/pbuf.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/pbuf.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/pbuf.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/pbuf.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/raw.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/raw.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/raw.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/raw.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/stats.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/stats.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/stats.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/stats.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/sys.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/sys.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/sys.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/sys.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_in.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_in.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_in.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_in.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_out.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_out.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_out.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/tcp_out.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/timeouts.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/timeouts.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/timeouts.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/timeouts.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/udp.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/udp.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/udp.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/core/udp.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/bridgeif_fdb.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ethernet.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ethernet.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ethernet.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ethernet.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_ble.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/lowpan6_common.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/auth.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ccp.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-md5.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap-new.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/chap_ms.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/demand.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eap.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ecp.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/eui64.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/fsm.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipcp.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ipv6cp.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/lcp.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/magic.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/mppe.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/multilink.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/arc4.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/des.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md4.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/md5.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/polarssl/sha1.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/ppp.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppapi.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppcrypt.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppoe.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppol2tp.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/pppos.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/upap.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/utils.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/ppp/vj.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/slipif.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/slipif.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/slipif.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/slipif.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/zepif.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/zepif.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/zepif.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/lwip/src/netif/zepif.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/class/video/video_device.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/device/usbd_control.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/tusb.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/tusb.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/tusb.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/lib/tinyusb/src/tusb.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_adc/adc.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_adc/adc.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_adc/adc.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_adc/adc.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.o"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_dma/dma.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_dma/dma.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_dma/dma.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_dma/dma.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_exception/exception.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_exception/exception.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_exception/exception.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_exception/exception.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_flash/flash.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_flash/flash.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_flash/flash.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_flash/flash.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pio/pio.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pio/pio.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pio/pio.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pio/pio.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_base.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_async_context/async_context_threadsafe_background.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_freertos.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_poll.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_arch/cyw43_arch_threadsafe_background.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cybt_shared_bus/cybt_shared_bus_driver.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_bus_pio_spi.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver/cyw43_driver.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.o"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.o"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.o"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.o"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.o"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_lwip/lwip_nosys.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_rand/rand.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_rand/rand.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_rand/rand.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_rand/rand.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.o"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.s"
+	@echo "... main.obj"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 

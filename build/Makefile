@@ -182,17 +182,17 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast:
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h/fast
 
 #=============================================================================
-# Target rules for targets named barcode_sensor
+# Target rules for targets named barcode_module
 
 # Build rule for target.
-barcode_sensor: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barcode_sensor
-.PHONY : barcode_sensor
+barcode_module: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 barcode_module
+.PHONY : barcode_module
 
 # fast build rule for target.
-barcode_sensor/fast:
-	$(MAKE) $(MAKESILENT) -f barcode_sensor/CMakeFiles/barcode_sensor.dir/build.make barcode_sensor/CMakeFiles/barcode_sensor.dir/build
-.PHONY : barcode_sensor/fast
+barcode_module/fast:
+	$(MAKE) $(MAKESILENT) -f barcode_module/CMakeFiles/barcode_module.dir/build.make barcode_module/CMakeFiles/barcode_module.dir/build
+.PHONY : barcode_module/fast
 
 #=============================================================================
 # Target rules for targets named ELF2UF2Build
@@ -204,7 +204,7 @@ ELF2UF2Build: cmake_check_build_system
 
 # fast build rule for target.
 ELF2UF2Build/fast:
-	$(MAKE) $(MAKESILENT) -f barcode_sensor/CMakeFiles/ELF2UF2Build.dir/build.make barcode_sensor/CMakeFiles/ELF2UF2Build.dir/build
+	$(MAKE) $(MAKESILENT) -f barcode_module/CMakeFiles/ELF2UF2Build.dir/build.make barcode_module/CMakeFiles/ELF2UF2Build.dir/build
 .PHONY : ELF2UF2Build/fast
 
 #=============================================================================
@@ -221,30 +221,30 @@ line_sensor/fast:
 .PHONY : line_sensor/fast
 
 #=============================================================================
-# Target rules for targets named hello_pwm
+# Target rules for targets named motor
 
 # Build rule for target.
-hello_pwm: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_pwm
-.PHONY : hello_pwm
+motor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 motor
+.PHONY : motor
 
 # fast build rule for target.
-hello_pwm/fast:
-	$(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/build
-.PHONY : hello_pwm/fast
+motor/fast:
+	$(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/build
+.PHONY : motor/fast
 
 #=============================================================================
-# Target rules for targets named embedded_team78
+# Target rules for targets named web-ui
 
 # Build rule for target.
-embedded_team78: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 embedded_team78
-.PHONY : embedded_team78
+web-ui: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 web-ui
+.PHONY : web-ui
 
 # fast build rule for target.
-embedded_team78/fast:
-	$(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/build
-.PHONY : embedded_team78/fast
+web-ui/fast:
+	$(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/build
+.PHONY : web-ui/fast
 
 # Help Target
 help:
@@ -259,11 +259,11 @@ help:
 	@echo "... bs2_default_bin"
 	@echo "... bs2_default_padded_checksummed_asm"
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
-	@echo "... barcode_sensor"
+	@echo "... barcode_module"
 	@echo "... bs2_default"
-	@echo "... embedded_team78"
-	@echo "... hello_pwm"
 	@echo "... line_sensor"
+	@echo "... motor"
+	@echo "... web-ui"
 .PHONY : help
 
 

@@ -1,16 +1,4 @@
-cmake_minimum_required(VERSION 3.13)
-
-set(PROGRAM_NAME pico_w_webserver)
-set(PICO_BOARD pico_w)
-set(CMAKE_C_STANDARD 11)
-set(CMAKE_CXX_STANDARD 17)
-
-include(pico_sdk_import.cmake)
-
-
-project(pico_w_webserver)
-
-pico_sdk_init()
+set(PROGRAM_NAME web-ui)
 
 message("Running makefsdata python script")
 execute_process(COMMAND

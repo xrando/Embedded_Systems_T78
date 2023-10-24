@@ -172,11 +172,9 @@
 /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/line_sensor/CMakeFiles/line_sensor.dir
 /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/line_sensor/CMakeFiles/edit_cache.dir
 /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/line_sensor/CMakeFiles/rebuild_cache.dir
-/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor/CMakeFiles/hello_pwm.dir
+/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor/CMakeFiles/motor.dir
 /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor/CMakeFiles/edit_cache.dir
 /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor/CMakeFiles/rebuild_cache.dir
-/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/web-ui/CMakeFiles/embedded_team78.dir
+/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/web-ui/CMakeFiles/web-ui.dir
 /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/web-ui/CMakeFiles/edit_cache.dir
 /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/web-ui/CMakeFiles/rebuild_cache.dir
-/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/web-ui/pico-sdk/CMakeFiles/edit_cache.dir
-/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/web-ui/pico-sdk/CMakeFiles/rebuild_cache.dir

@@ -10,7 +10,7 @@ dcbe732ef5e046d62fc8152bbe1b1fa2 barcode_sensor/elf2uf2/src/ELF2UF2Build-stamp/E
 54d96d9899e8c0b0aa9114528929f9ac barcode_sensor/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
 14331c989a1befd07cde3b1445154d5c pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin
 14331c989a1befd07cde3b1445154d5c pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm
-8a888400b52f1ab0a302224ff6a443ec pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+de86f5b1a0a3993db663bd69102507b9 pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 49f81ca6b37a96e1e49f8443c4574580 pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 50043019affb6632a5702b555f11f665 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild
 83090c3f029e1bb53442aa7619297735 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete

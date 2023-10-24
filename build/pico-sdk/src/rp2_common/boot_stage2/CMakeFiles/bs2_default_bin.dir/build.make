@@ -70,7 +70,7 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin: pico-sdk/src/rp2
 
 pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin: pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default.bin"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/boot_stage2 && CMAKE_OBJCOPY-NOTFOUND -Obinary /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/boot_stage2 && /opt/homebrew/bin/arm-none-eabi-objcopy -Obinary /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
 
 bs2_default_bin: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin
 bs2_default_bin: pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin

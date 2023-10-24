@@ -221,30 +221,30 @@ line_sensor/fast:
 .PHONY : line_sensor/fast
 
 #=============================================================================
-# Target rules for targets named hello_pwm
+# Target rules for targets named motor
 
 # Build rule for target.
-hello_pwm: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hello_pwm
-.PHONY : hello_pwm
+motor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 motor
+.PHONY : motor
 
 # fast build rule for target.
-hello_pwm/fast:
-	$(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/build
-.PHONY : hello_pwm/fast
+motor/fast:
+	$(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/build
+.PHONY : motor/fast
 
 #=============================================================================
-# Target rules for targets named embedded_team78
+# Target rules for targets named web-ui
 
 # Build rule for target.
-embedded_team78: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 embedded_team78
-.PHONY : embedded_team78
+web-ui: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 web-ui
+.PHONY : web-ui
 
 # fast build rule for target.
-embedded_team78/fast:
-	$(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/embedded_team78.dir/build.make web-ui/CMakeFiles/embedded_team78.dir/build
-.PHONY : embedded_team78/fast
+web-ui/fast:
+	$(MAKE) $(MAKESILENT) -f web-ui/CMakeFiles/web-ui.dir/build.make web-ui/CMakeFiles/web-ui.dir/build
+.PHONY : web-ui/fast
 
 # Help Target
 help:
@@ -261,9 +261,9 @@ help:
 	@echo "... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h"
 	@echo "... barcode_sensor"
 	@echo "... bs2_default"
-	@echo "... embedded_team78"
-	@echo "... hello_pwm"
 	@echo "... line_sensor"
+	@echo "... motor"
+	@echo "... web-ui"
 .PHONY : help
 
 

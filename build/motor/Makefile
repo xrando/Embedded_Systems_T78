@@ -117,33 +117,33 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-motor/CMakeFiles/hello_pwm.dir/rule:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 motor/CMakeFiles/hello_pwm.dir/rule
-.PHONY : motor/CMakeFiles/hello_pwm.dir/rule
+motor/CMakeFiles/motor.dir/rule:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 motor/CMakeFiles/motor.dir/rule
+.PHONY : motor/CMakeFiles/motor.dir/rule
 
 # Convenience name for target.
-hello_pwm: motor/CMakeFiles/hello_pwm.dir/rule
-.PHONY : hello_pwm
+motor: motor/CMakeFiles/motor.dir/rule
+.PHONY : motor
 
 # fast build rule for target.
-hello_pwm/fast:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/build
-.PHONY : hello_pwm/fast
+motor/fast:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/build
+.PHONY : motor/fast
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
@@ -151,23 +151,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
@@ -175,23 +175,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.s
@@ -199,23 +199,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.s
@@ -223,23 +223,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.s
@@ -247,23 +247,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
@@ -271,23 +271,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.s
@@ -295,23 +295,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.s
@@ -319,23 +319,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.s
@@ -343,23 +343,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
@@ -367,23 +367,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/h
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
@@ -391,31 +391,31 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/h
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
@@ -423,23 +423,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/h
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
@@ -447,31 +447,31 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/h
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
@@ -479,23 +479,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/h
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
@@ -503,23 +503,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/h
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
@@ -527,23 +527,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/h
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
@@ -551,23 +551,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/h
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
@@ -575,23 +575,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/h
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
@@ -599,23 +599,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/h
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
@@ -623,31 +623,31 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/h
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
@@ -655,39 +655,39 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.o
-
-# target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.o
-
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj
+
+# target to build an object file
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
@@ -695,23 +695,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
@@ -719,39 +719,39 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.o
-
-# target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.o
-
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj
+
+# target to build an object file
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
@@ -759,23 +759,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
@@ -783,39 +783,39 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o
-
-# target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o
-
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj
+
+# target to build an object file
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
@@ -823,31 +823,31 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
@@ -855,23 +855,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
@@ -879,23 +879,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
@@ -903,23 +903,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
@@ -927,31 +927,31 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
@@ -959,23 +959,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
@@ -983,23 +983,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
@@ -1007,23 +1007,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
 
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj
 
 # target to build an object file
-Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
-.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o
+Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+.PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i
 
 # target to preprocess a source file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
 
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s: Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
@@ -1031,23 +1031,23 @@ Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/p
 
 # target to generate assembly for a file
 Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 .PHONY : Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 
-motor.o: motor.c.o
-.PHONY : motor.o
+motor.obj: motor.c.obj
+.PHONY : motor.obj
 
 # target to build an object file
-motor.c.o:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/motor.c.o
-.PHONY : motor.c.o
+motor.c.obj:
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/motor.c.obj
+.PHONY : motor.c.obj
 
 motor.i: motor.c.i
 .PHONY : motor.i
 
 # target to preprocess a source file
 motor.c.i:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/motor.c.i
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/motor.c.i
 .PHONY : motor.c.i
 
 motor.s: motor.c.s
@@ -1055,7 +1055,7 @@ motor.s: motor.c.s
 
 # target to generate assembly for a file
 motor.c.s:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/hello_pwm.dir/build.make motor/CMakeFiles/hello_pwm.dir/motor.c.s
+	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(MAKE) $(MAKESILENT) -f motor/CMakeFiles/motor.dir/build.make motor/CMakeFiles/motor.dir/motor.c.s
 .PHONY : motor.c.s
 
 # Help Target
@@ -1066,121 +1066,121 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... hello_pwm"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.o"
+	@echo "... motor"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.o"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.obj"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.o"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.obj"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.o"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.obj"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.o"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.o"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.obj"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.obj"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.o"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.o"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.obj"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.obj"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.o"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.o"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.obj"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.obj"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.o"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.obj"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.o"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.obj"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.s"
-	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.o"
+	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.obj"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.i"
 	@echo "... Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.s"
-	@echo "... motor.o"
+	@echo "... motor.obj"
 	@echo "... motor.i"
 	@echo "... motor.s"
 .PHONY : help

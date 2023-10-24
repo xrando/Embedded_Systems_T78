@@ -1,4 +1,8 @@
-add_executable(line_sensor line_sensor.c main.c line_sensor.h)
+add_executable(line_sensor
+        line_sensor.c
+        main.c
+        line_sensor.h
+        )
 
 # pull in common dependencies
 target_link_libraries(line_sensor pico_stdlib)

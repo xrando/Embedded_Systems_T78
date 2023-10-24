@@ -1,6 +1,6 @@
 CMakeFiles/pioasm.dir/hex_output.cpp.o: \
-  /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/tools/pioasm/hex_output.cpp \
-  /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/tools/pioasm/output_format.h \
+  /Users/timneam/pico/pico-sdk/tools/pioasm/hex_output.cpp \
+  /Users/timneam/pico/pico-sdk/tools/pioasm/output_format.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/vector \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/copy.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk/usr/include/c++/v1/__algorithm/copy_move_common.h \

@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -E rm -f
+RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78
+CMAKE_SOURCE_DIR = /Users/timneam/y2t1/embedded/Embedded_Systems_T78
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build
+CMAKE_BINARY_DIR = /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build
 
 # Utility rule file for PioasmBuild.
 
@@ -76,48 +76,48 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete: pico-
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'PioasmBuild'"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -E make_directory /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -E touch /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -E touch /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'PioasmBuild'"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E make_directory /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E touch /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E touch /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-done
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'PioasmBuild'"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pioasm && $(MAKE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'PioasmBuild'"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pioasm && $(MAKE)
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-cfgcmd.txt
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-cache-Debug.cmake
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'PioasmBuild'"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pioasm && /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make "-GUnix Makefiles" -C/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-cache-Debug.cmake -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/tools/pioasm -B /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pioasm
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pioasm && /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -E touch /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'PioasmBuild'"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pioasm && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make "-GUnix Makefiles" -C/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-cache-Debug.cmake -S /Users/timneam/pico/pico-sdk/tools/pioasm -B /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pioasm
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pioasm && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E touch /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-configure
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-source_dirinfo.txt
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'PioasmBuild'"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -E echo_append
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -E touch /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'PioasmBuild'"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E echo_append
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E touch /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-install: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'PioasmBuild'"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pioasm && /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -E echo_append
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'PioasmBuild'"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pioasm && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E echo_append
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'PioasmBuild'"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -Dcfgdir= -P /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-mkdirs.cmake
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -E touch /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'PioasmBuild'"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -Dcfgdir= -P /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/tmp/PioasmBuild-mkdirs.cmake
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E touch /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-mkdir
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch-info.txt
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'PioasmBuild'"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -E echo_append
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -E touch /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'PioasmBuild'"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E echo_append
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E touch /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-patch
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update-info.txt
 pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update: pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'PioasmBuild'"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -E echo_append
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -E touch /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'PioasmBuild'"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E echo_append
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E touch /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver/pioasm/src/PioasmBuild-stamp/PioasmBuild-update
 
 PioasmBuild: pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild
 PioasmBuild: pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild-complete
@@ -136,10 +136,10 @@ pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/build: Pioa
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/build
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/clean:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver && $(CMAKE_COMMAND) -P CMakeFiles/PioasmBuild.dir/cmake_clean.cmake
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver && $(CMAKE_COMMAND) -P CMakeFiles/PioasmBuild.dir/cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/clean
 
 pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/depend:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78 /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_cyw43_driver /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/timneam/y2t1/embedded/Embedded_Systems_T78 /Users/timneam/pico/pico-sdk/src/rp2_common/pico_cyw43_driver /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : pico-sdk/src/rp2_common/pico_cyw43_driver/CMakeFiles/PioasmBuild.dir/depend
 

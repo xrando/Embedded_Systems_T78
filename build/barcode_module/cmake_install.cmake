@@ -1,4 +1,4 @@
-# Install script for directory: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/barcode_module
+# Install script for directory: /Users/timneam/y2t1/embedded/Embedded_Systems_T78/barcode_module
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

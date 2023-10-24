@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module/CMakeFiles/ELF2UF2Build"
+			"file" : "/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module/CMakeFiles/ELF2UF2Build"
 		},
 		{
-			"file" : "/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module/CMakeFiles/ELF2UF2Build.rule"
+			"file" : "/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module/CMakeFiles/ELF2UF2Build.rule"
 		},
 		{
-			"file" : "/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module/CMakeFiles/ELF2UF2Build-complete.rule"
+			"file" : "/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module/CMakeFiles/ELF2UF2Build-complete.rule"
 		},
 		{
-			"file" : "/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule"
+			"file" : "/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build.rule"
 		},
 		{
-			"file" : "/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule"
+			"file" : "/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure.rule"
 		},
 		{
-			"file" : "/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule"
+			"file" : "/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download.rule"
 		},
 		{
-			"file" : "/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule"
+			"file" : "/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install.rule"
 		},
 		{
-			"file" : "/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule"
+			"file" : "/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir.rule"
 		},
 		{
-			"file" : "/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule"
+			"file" : "/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch.rule"
 		},
 		{
-			"file" : "/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule"
+			"file" : "/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update.rule"
 		}
 	],
 	"target" : 

@@ -4,7 +4,7 @@
 # compile ASM with /opt/homebrew/bin/arm-none-eabi-gcc
 ASM_DEFINES = -DPICO_BOARD=\"pico_w\" -DPICO_BUILD=1 -DPICO_NO_HARDWARE=0 -DPICO_ON_DEVICE=1
 
-ASM_INCLUDES = -I/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/boot_stage2/asminclude -I/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2040/hardware_regs/include -I/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_base/include -I/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_base/include -I/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/generated/pico_base -I/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/boards/include -I/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/include -I/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/boot_stage2/include
+ASM_INCLUDES = -I/Users/timneam/pico/pico-sdk/src/rp2_common/boot_stage2/asminclude -I/Users/timneam/pico/pico-sdk/src/rp2040/hardware_regs/include -I/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_base/include -I/Users/timneam/pico/pico-sdk/src/common/pico_base/include -I/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/generated/pico_base -I/Users/timneam/pico/pico-sdk/src/boards/include -I/Users/timneam/pico/pico-sdk/src/rp2_common/pico_platform/include -I/Users/timneam/pico/pico-sdk/src/rp2_common/boot_stage2/include
 
 ASM_FLAGS = -mcpu=cortex-m0plus -mthumb -Og -g
 

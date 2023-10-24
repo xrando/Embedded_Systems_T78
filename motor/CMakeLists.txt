@@ -4,10 +4,10 @@ add_executable(
         )
 
 # pull in common dependencies and additional pwm hardware support
-target_link_libraries(motor pico_stdlib hardware_pwm)
+target_link_libraries(motor pico_stdlib hardware_pwm hardware_adc) # hardware_pwm hardware_adc
 
 # create map/bin/hex file etc.
-pico_add_extra_outputs(motor)
+pico_add_extra_outputs(motor 1)
 
 # add url via pico_set_program_url
-example_auto_set_url(motor)
+example_auto_set_url(motor 1)

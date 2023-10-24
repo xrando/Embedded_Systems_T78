@@ -1,4 +1,4 @@
-# Install script for directory: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk
+# Install script for directory: /Users/timneam/pico/pico-sdk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/tools/cmake_install.cmake")
-  include("/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/src/cmake_install.cmake")
-  include("/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/docs/cmake_install.cmake")
+  include("/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pico-sdk/tools/cmake_install.cmake")
+  include("/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pico-sdk/src/cmake_install.cmake")
+  include("/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pico-sdk/docs/cmake_install.cmake")
 
 endif()
 

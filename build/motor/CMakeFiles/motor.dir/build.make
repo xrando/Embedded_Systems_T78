@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -E rm -f
+RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78
+CMAKE_SOURCE_DIR = /Users/timneam/y2t1/embedded/Embedded_Systems_T78
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build
+CMAKE_BINARY_DIR = /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build
 
 # Include any dependencies generated for this target.
 include motor/CMakeFiles/motor.dir/depend.make
@@ -70,756 +70,772 @@ include motor/CMakeFiles/motor.dir/progress.make
 include motor/CMakeFiles/motor.dir/flags.make
 
 motor/CMakeFiles/motor.dir/motor.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/motor.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/motor/motor.c
+motor/CMakeFiles/motor.dir/motor.c.obj: /Users/timneam/y2t1/embedded/Embedded_Systems_T78/motor/motor.c
 motor/CMakeFiles/motor.dir/motor.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object motor/CMakeFiles/motor.dir/motor.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/motor.c.obj -MF CMakeFiles/motor.dir/motor.c.obj.d -o CMakeFiles/motor.dir/motor.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/motor/motor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object motor/CMakeFiles/motor.dir/motor.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/motor.c.obj -MF CMakeFiles/motor.dir/motor.c.obj.d -o CMakeFiles/motor.dir/motor.c.obj -c /Users/timneam/y2t1/embedded/Embedded_Systems_T78/motor/motor.c
 
 motor/CMakeFiles/motor.dir/motor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/motor.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/motor/motor.c > CMakeFiles/motor.dir/motor.c.i
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/y2t1/embedded/Embedded_Systems_T78/motor/motor.c > CMakeFiles/motor.dir/motor.c.i
 
 motor/CMakeFiles/motor.dir/motor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/motor.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/motor/motor.c -o CMakeFiles/motor.dir/motor.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building ASM object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: motor/CMakeFiles/motor.dir/flags.make
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
-
-motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/y2t1/embedded/Embedded_Systems_T78/motor/motor.c -o CMakeFiles/motor.dir/motor.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -c /Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -c /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -c /Users/timneam/pico/pico-sdk/src/rp2_common/pico_platform/platform.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/pico_platform/platform.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/pico_platform/platform.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -c /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -c /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -c /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj   -c /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/sem.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/sem.c.obj: /Users/timneam/pico/pico-sdk/src/common/pico_sync/sem.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/sem.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/sem.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/sem.c.obj -c /Users/timneam/pico/pico-sdk/src/common/pico_sync/sem.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/sem.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/common/pico_sync/sem.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/sem.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/sem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/sem.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/common/pico_sync/sem.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/sem.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: /Users/timneam/pico/pico-sdk/src/common/pico_sync/lock_core.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -c /Users/timneam/pico/pico-sdk/src/common/pico_sync/lock_core.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/lock_core.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/common/pico_sync/lock_core.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/lock_core.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/lock_core.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/lock_core.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/common/pico_sync/lock_core.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/lock_core.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: /Users/timneam/pico/pico-sdk/src/common/pico_sync/mutex.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/mutex.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/mutex.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/mutex.c.obj -c /Users/timneam/pico/pico-sdk/src/common/pico_sync/mutex.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/mutex.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/common/pico_sync/mutex.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/mutex.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/mutex.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/mutex.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/common/pico_sync/mutex.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/mutex.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: /Users/timneam/pico/pico-sdk/src/common/pico_sync/critical_section.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -c /Users/timneam/pico/pico-sdk/src/common/pico_sync/critical_section.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/critical_section.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/common/pico_sync/critical_section.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/critical_section.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/critical_section.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/critical_section.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/common/pico_sync/critical_section.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/critical_section.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_time/time.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_time/time.c.obj: /Users/timneam/pico/pico-sdk/src/common/pico_time/time.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_time/time.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_time/time.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_time/time.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_time/time.c.obj -c /Users/timneam/pico/pico-sdk/src/common/pico_time/time.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_time/time.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/common/pico_time/time.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_time/time.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_time/time.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_time/time.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/common/pico_time/time.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_time/time.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: /Users/timneam/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -c /Users/timneam/pico/pico-sdk/src/common/pico_time/timeout_helper.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/common/pico_time/timeout_helper.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_time/timeout_helper.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/common/pico_time/timeout_helper.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_time/timeout_helper.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -c /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/datetime.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/datetime.c.obj: /Users/timneam/pico/pico-sdk/src/common/pico_util/datetime.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/datetime.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/datetime.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/datetime.c.obj -c /Users/timneam/pico/pico-sdk/src/common/pico_util/datetime.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/datetime.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/common/pico_util/datetime.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/datetime.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/datetime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/datetime.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/common/pico_util/datetime.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/datetime.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/pheap.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/pheap.c.obj: /Users/timneam/pico/pico-sdk/src/common/pico_util/pheap.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/pheap.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/pheap.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/pheap.c.obj -c /Users/timneam/pico/pico-sdk/src/common/pico_util/pheap.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/pheap.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/common/pico_util/pheap.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/pheap.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/pheap.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/common/pico_util/pheap.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/pheap.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/queue.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/queue.c.obj: /Users/timneam/pico/pico-sdk/src/common/pico_util/queue.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/queue.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/queue.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/queue.c.obj -c /Users/timneam/pico/pico-sdk/src/common/pico_util/queue.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/queue.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/common/pico_util/queue.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/queue.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/queue.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/common/pico_util/queue.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/queue.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -c /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -c /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -c /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -c /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -c /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -c /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building ASM object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj   -c /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -c /Users/timneam/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -c /Users/timneam/pico/pico-sdk/src/rp2_common/pico_printf/printf.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/pico_printf/printf.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/pico_printf/printf.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj   -c /Users/timneam/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -c /Users/timneam/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj   -c /Users/timneam/pico/pico-sdk/src/rp2_common/pico_divider/divider.S
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/pico_divider/divider.S > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/pico_divider/divider.S -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj   -c /Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -c /Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -c /Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_math.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_math.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_math.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj   -c /Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj   -c /Users/timneam/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj   -c /Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -c /Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -c /Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_math.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_math.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_math.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj   -c /Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -c /Users/timneam/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj   -c /Users/timneam/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj   -c /Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -c /Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -c /Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -c /Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj -c /Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.s
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: motor/CMakeFiles/motor.dir/flags.make
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj: motor/CMakeFiles/motor.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -MF CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj.d -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj -c /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c > CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.i
+
+motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/timneam/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c -o CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.s
 
 # Object files for target motor
 motor_OBJECTS = \
 "CMakeFiles/motor.dir/motor.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
-"CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/sem.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/mutex.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_time/time.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/datetime.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/pheap.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/queue.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj" \
+"CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj"
 
 # External object files for target motor
 motor_EXTERNAL_OBJECTS =
 
 motor/motor.elf: motor/CMakeFiles/motor.dir/motor.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/sem.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/time.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/datetime.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/pheap.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/common/pico_util/queue.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
-motor/motor.elf: motor/CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/sem.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/lock_core.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/mutex.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_sync/critical_section.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_time/time.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/datetime.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/pheap.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/common/pico_util/queue.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
+motor/motor.elf: motor/CMakeFiles/motor.dir/Users/timneam/pico/pico-sdk/src/rp2_common/hardware_adc/adc.c.obj
 motor/motor.elf: motor/CMakeFiles/motor.dir/build.make
 motor/motor.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 motor/motor.elf: motor/CMakeFiles/motor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Linking CXX executable motor.elf"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/motor.dir/link.txt --verbose=$(VERBOSE)
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-objcopy -Oihex /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor/motor.elf motor.hex
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-objcopy -Obinary /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor/motor.elf motor.bin
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-objdump -h /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor/motor.elf > motor.dis
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-objdump -d /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor/motor.elf >> motor.dis
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && ../elf2uf2/elf2uf2 /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor/motor.elf motor.uf2
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Linking CXX executable motor.elf"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/motor.dir/link.txt --verbose=$(VERBOSE)
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-objcopy -Oihex /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor/motor.elf motor.hex
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-objcopy -Obinary /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor/motor.elf motor.bin
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-objdump -h /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor/motor.elf > motor.dis
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && /opt/homebrew/bin/arm-none-eabi-objdump -d /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor/motor.elf >> motor.dis
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && ../elf2uf2/elf2uf2 /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor/motor.elf motor.uf2
 
 # Rule to build all files generated by this target.
 motor/CMakeFiles/motor.dir/build: motor/motor.elf
 .PHONY : motor/CMakeFiles/motor.dir/build
 
 motor/CMakeFiles/motor.dir/clean:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor && $(CMAKE_COMMAND) -P CMakeFiles/motor.dir/cmake_clean.cmake
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor && $(CMAKE_COMMAND) -P CMakeFiles/motor.dir/cmake_clean.cmake
 .PHONY : motor/CMakeFiles/motor.dir/clean
 
 motor/CMakeFiles/motor.dir/depend:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78 /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/motor /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor/CMakeFiles/motor.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/timneam/y2t1/embedded/Embedded_Systems_T78 /Users/timneam/y2t1/embedded/Embedded_Systems_T78/motor /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor/CMakeFiles/motor.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : motor/CMakeFiles/motor.dir/depend
 

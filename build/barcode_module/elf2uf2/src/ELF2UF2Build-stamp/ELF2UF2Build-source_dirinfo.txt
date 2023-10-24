@@ -4,6 +4,6 @@
 
 method=source_dir
 command=
-source_dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/tools/elf2uf2
+source_dir=/Users/timneam/pico/pico-sdk/tools/elf2uf2
 work_dir=
 

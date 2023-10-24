@@ -44,19 +44,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake
+CMAKE_COMMAND = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake
 
 # The command to remove a file.
-RM = /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -E rm -f
+RM = /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78
+CMAKE_SOURCE_DIR = /Users/timneam/y2t1/embedded/Embedded_Systems_T78
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build
+CMAKE_BINARY_DIR = /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build
 
 # Utility rule file for ELF2UF2Build.
 
@@ -76,47 +76,47 @@ barcode_module/CMakeFiles/ELF2UF2Build-complete: barcode_module/elf2uf2/src/ELF2
 barcode_module/CMakeFiles/ELF2UF2Build-complete: barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
 barcode_module/CMakeFiles/ELF2UF2Build-complete: barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build
 barcode_module/CMakeFiles/ELF2UF2Build-complete: barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'ELF2UF2Build'"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module && /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -E make_directory /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module/CMakeFiles
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module && /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -E touch /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module/CMakeFiles/ELF2UF2Build-complete
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module && /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -E touch /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'ELF2UF2Build'"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E make_directory /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module/CMakeFiles
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E touch /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module/CMakeFiles/ELF2UF2Build-complete
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E touch /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-done
 
 barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build: barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'ELF2UF2Build'"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/elf2uf2 && $(MAKE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Performing build step for 'ELF2UF2Build'"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/elf2uf2 && $(MAKE)
 
 barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: barcode_module/elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt
 barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'ELF2UF2Build'"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/elf2uf2 && /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make "-GUnix Makefiles" -S /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/tools/elf2uf2 -B /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/elf2uf2
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/elf2uf2 && /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -E touch /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'ELF2UF2Build'"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/elf2uf2 && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -DCMAKE_MAKE_PROGRAM:FILEPATH=/usr/bin/make "-GUnix Makefiles" -S /Users/timneam/pico/pico-sdk/tools/elf2uf2 -B /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/elf2uf2
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/elf2uf2 && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E touch /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
 
 barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download: barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-source_dirinfo.txt
 barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download: barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'ELF2UF2Build'"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module && /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -E echo_append
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module && /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -E touch /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'ELF2UF2Build'"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E echo_append
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E touch /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
 
 barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install: barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'ELF2UF2Build'"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/elf2uf2 && /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -E echo_append
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No install step for 'ELF2UF2Build'"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/elf2uf2 && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E echo_append
 
 barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'ELF2UF2Build'"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module && /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -Dcfgdir= -P /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module/elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module && /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -E touch /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Creating directories for 'ELF2UF2Build'"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -Dcfgdir= -P /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module/elf2uf2/tmp/ELF2UF2Build-mkdirs.cmake
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E touch /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
 
 barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch: barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch-info.txt
 barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch: barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'ELF2UF2Build'"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module && /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -E echo_append
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module && /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -E touch /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No patch step for 'ELF2UF2Build'"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E echo_append
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E touch /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
 
 barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update: barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update-info.txt
 barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update: barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'ELF2UF2Build'"
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module && /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -E echo_append
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module && /opt/homebrew/Cellar/cmake/3.27.5/bin/cmake -E touch /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No update step for 'ELF2UF2Build'"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E echo_append
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module && /opt/homebrew/Cellar/cmake/3.27.7/bin/cmake -E touch /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
 
 ELF2UF2Build: barcode_module/CMakeFiles/ELF2UF2Build
 ELF2UF2Build: barcode_module/CMakeFiles/ELF2UF2Build-complete
@@ -135,10 +135,10 @@ barcode_module/CMakeFiles/ELF2UF2Build.dir/build: ELF2UF2Build
 .PHONY : barcode_module/CMakeFiles/ELF2UF2Build.dir/build
 
 barcode_module/CMakeFiles/ELF2UF2Build.dir/clean:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module && $(CMAKE_COMMAND) -P CMakeFiles/ELF2UF2Build.dir/cmake_clean.cmake
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module && $(CMAKE_COMMAND) -P CMakeFiles/ELF2UF2Build.dir/cmake_clean.cmake
 .PHONY : barcode_module/CMakeFiles/ELF2UF2Build.dir/clean
 
 barcode_module/CMakeFiles/ELF2UF2Build.dir/depend:
-	cd /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78 /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/barcode_module /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/timneam/y2t1/embedded/Embedded_Systems_T78 /Users/timneam/y2t1/embedded/Embedded_Systems_T78/barcode_module /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : barcode_module/CMakeFiles/ELF2UF2Build.dir/depend
 

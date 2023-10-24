@@ -1,4 +1,4 @@
-# Install script for directory: /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78
+# Install script for directory: /Users/timneam/y2t1/embedded/Embedded_Systems_T78
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,11 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/pico-sdk/cmake_install.cmake")
-  include("/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_module/cmake_install.cmake")
-  include("/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/line_sensor/cmake_install.cmake")
-  include("/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/motor/cmake_install.cmake")
-  include("/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/web-ui/cmake_install.cmake")
+  include("/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pico-sdk/cmake_install.cmake")
+  include("/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/barcode_module/cmake_install.cmake")
+  include("/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/line_sensor/cmake_install.cmake")
+  include("/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/motor/cmake_install.cmake")
+  include("/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/web-ui/cmake_install.cmake")
 
 endif()
 
@@ -55,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

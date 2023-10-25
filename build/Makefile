@@ -208,6 +208,19 @@ ELF2UF2Build/fast:
 .PHONY : ELF2UF2Build/fast
 
 #=============================================================================
+# Target rules for targets named ultrasonic_sensor
+
+# Build rule for target.
+ultrasonic_sensor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ultrasonic_sensor
+.PHONY : ultrasonic_sensor
+
+# fast build rule for target.
+ultrasonic_sensor/fast:
+	$(MAKE) $(MAKESILENT) -f ultrasonic_sensor/CMakeFiles/ultrasonic_sensor.dir/build.make ultrasonic_sensor/CMakeFiles/ultrasonic_sensor.dir/build
+.PHONY : ultrasonic_sensor/fast
+
+#=============================================================================
 # Target rules for targets named line_sensor
 
 # Build rule for target.
@@ -263,6 +276,7 @@ help:
 	@echo "... bs2_default"
 	@echo "... line_sensor"
 	@echo "... motor"
+	@echo "... ultrasonic_sensor"
 	@echo "... web-ui"
 .PHONY : help
 

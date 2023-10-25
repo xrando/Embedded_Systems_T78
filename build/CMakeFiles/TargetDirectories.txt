@@ -169,6 +169,9 @@
 /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_sensor/CMakeFiles/ELF2UF2Build.dir
 /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_sensor/CMakeFiles/edit_cache.dir
 /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/barcode_sensor/CMakeFiles/rebuild_cache.dir
+/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/ultrasonic_sensor/CMakeFiles/ultrasonic_sensor.dir
+/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/ultrasonic_sensor/CMakeFiles/edit_cache.dir
+/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/ultrasonic_sensor/CMakeFiles/rebuild_cache.dir
 /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/line_sensor/CMakeFiles/line_sensor.dir
 /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/line_sensor/CMakeFiles/edit_cache.dir
 /Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/Embedded_Systems_T78/build/line_sensor/CMakeFiles/rebuild_cache.dir

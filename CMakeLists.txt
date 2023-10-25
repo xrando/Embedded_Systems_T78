@@ -30,6 +30,7 @@ if (CMAKE_C_COMPILER_ID STREQUAL "GNU")
 endif()
 
 add_subdirectory(barcode_sensor)
+add_subdirectory(ultrasonic_sensor)
 add_subdirectory(line_sensor)
 add_subdirectory(motor)
 add_subdirectory(web-ui)

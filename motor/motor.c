@@ -61,7 +61,6 @@ int main() {
     gpio_set_dir(POLLING_PIN_2, GPIO_IN);
     gpio_pull_up(POLLING_PIN_2);
 
-
     // Find out which PWM slice is connected to GPIO 0 (it's slice 0)
     uint slice_num = pwm_gpio_to_slice_num(0);
 

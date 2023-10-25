@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 // Padded and checksummed version of: /Users/timneam/y2t1/embedded/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+=======
+// Padded and checksummed version of: C:/Users/peter/Desktop/Embedded_Systems_T78/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
+>>>>>>> a0ce496ede789b5b94fbfb7f012a846627c91c18
 
 .cpu cortex-m0plus
 .thumb

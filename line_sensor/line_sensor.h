@@ -6,7 +6,7 @@
 
 #define LEFT_IR_SENSOR_PIN 16
 #define RIGHT_IR_SENSOR_PIN 2
-#define DEBOUNCE_TIME_USEC  100000
+#define DEBOUNCE_TIME_USEC  50000
 
 // function prototypes
 bool debounce (uint gpio, uint32_t events);

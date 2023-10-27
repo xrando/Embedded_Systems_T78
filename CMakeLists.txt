@@ -29,11 +29,7 @@ if (CMAKE_C_COMPILER_ID STREQUAL "GNU")
     add_compile_options(-Wno-maybe-uninitialized)
 endif()
 
-<<<<<<< HEAD
 add_subdirectory(barcode_module)
-=======
-add_subdirectory(barcode_sensor)
->>>>>>> 6be1434 (cmakelist done)
 add_subdirectory(line_sensor)
 add_subdirectory(motor)
 add_subdirectory(web-ui)

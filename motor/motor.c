@@ -27,6 +27,9 @@
 // Enccoder Notches
 #define NOTCHES 20
 
+// Debounce time in microseconds
+#define DEBOUNCE_TIME_USEC 50000
+
 // Counter to keep track of the number of notches
 volatile int right_motor_counter = 0;
 volatile int left_motor_counter = 0;
@@ -36,45 +39,38 @@ volatile float speed_of_right_wheel = 0.0;
 volatile float speed_of_left_wheel = 0.0;
 
 // Time variables to calculate speed
+uint16_t current_time = 0;
 uint64_t right_last_time = 0;
 uint64_t left_last_time = 0;
 
-/*  static float calculate_distance (int numberOfNotches) {
-    // float distancePerNotch = WHEEL_CIRCUMFERENCE_CM / NOTCHES;
-    // float totalDistanceTravelled = (float)numberOfNotches * distancePerNotch;
-    //return totalDistanceTravelled;
-}   */
-
 static float calculate_speed(float time_difference){
-    // uint64_t current_time = time_us_64();
-    // float time_difference = (current_time - last_time) / 1000000.0;
-    // printf("Current Time: %lld\n", current_time);
     float speed = DISTANCE_BETWEEN_NOTCHES_CM / (time_difference/1000000.0);
-    // printf("Time Difference: %.2f\n", time_difference);
-    // printf("Speed: %.2f cm/s\n", speed);
-    // last_time = current_time;
-
     return speed;
 }
 
 void gpio_callback(uint gpio, uint32_t events) {
+    uint64_t current_time = time_us_64();
+    uint64_t right_trigger_time = 0;
+    uint64_t left_trigger_time = 0;
+
     if (gpio == RIGHT_POLLING_PIN)
     {
+        if(current_time - right_trigger_time > DEBOUNCE_TIME_USEC){
         uint64_t current_time = time_us_64();
         uint64_t time_difference = current_time - right_last_time;
         right_last_time = current_time;
-        // float totalDistanceTravelled = calculate_distance(right_motor_counter);
         speed_of_right_wheel = calculate_speed(time_difference);
         right_motor_counter++;
+        }
     }
     else if (gpio == LEFT_POLLING_PIN){
-        uint64_t current_time = time_us_64();
-        uint64_t time_difference = current_time - left_last_time;
-        left_last_time = current_time;
-        // float totalDistanceTravelled = calculate_distance(left_motor_counter);
-        speed_of_left_wheel = calculate_speed(time_difference);
-        left_motor_counter++;
-    
+        if(current_time - left_trigger_time > DEBOUNCE_TIME_USEC){
+            uint64_t current_time = time_us_64();
+            uint64_t time_difference = current_time - left_last_time;
+            left_last_time = current_time;
+            speed_of_left_wheel = calculate_speed(time_difference);
+            left_motor_counter++;
+        }    
     }
 }
 
@@ -148,8 +144,8 @@ int main() {
     while (1) {
         // Wait forever, until interrupt request (IRQ) is received
         printf("Speed of right wheel: %.2f cm/s\n", speed_of_right_wheel);
-        sleep_ms(500);
+        sleep_ms(1000);
         printf("Speed of left wheel: %.2f cm/s\n", speed_of_left_wheel);
-        sleep_ms(500);
+        sleep_ms(1000);
     }
 }

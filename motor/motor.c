@@ -30,10 +30,6 @@
 // Debounce time in microseconds
 #define DEBOUNCE_TIME_USEC 50000
 
-// Counter to keep track of the number of notches
-volatile int right_motor_counter = 0;
-volatile int left_motor_counter = 0;
-
 // Gloabl variables to store the speed of the wheels
 volatile float speed_of_right_wheel = 0.0;
 volatile float speed_of_left_wheel = 0.0;
@@ -56,11 +52,10 @@ void gpio_callback(uint gpio, uint32_t events) {
     if (gpio == RIGHT_POLLING_PIN)
     {
         if(current_time - right_trigger_time > DEBOUNCE_TIME_USEC){
-        uint64_t current_time = time_us_64();
-        uint64_t time_difference = current_time - right_last_time;
-        right_last_time = current_time;
-        speed_of_right_wheel = calculate_speed(time_difference);
-        right_motor_counter++;
+            uint64_t current_time = time_us_64();
+            uint64_t time_difference = current_time - right_last_time;
+            right_last_time = current_time;
+            speed_of_right_wheel = calculate_speed(time_difference);
         }
     }
     else if (gpio == LEFT_POLLING_PIN){
@@ -69,7 +64,6 @@ void gpio_callback(uint gpio, uint32_t events) {
             uint64_t time_difference = current_time - left_last_time;
             left_last_time = current_time;
             speed_of_left_wheel = calculate_speed(time_difference);
-            left_motor_counter++;
         }    
     }
 }
@@ -136,9 +130,9 @@ int main() {
     
     forward();
 
-    // Enable interrupts for the GPIO pin 14 and call the notchCount function when the interrupt is triggered when the button is pressed
+    // Enable interrupts for the GPIO pin 14 and call the gpio_callback function when the interrupt is triggered when the button is pressed
     gpio_set_irq_enabled_with_callback(RIGHT_POLLING_PIN, GPIO_IRQ_EDGE_RISE, true, &gpio_callback);
-    // Enable interrupts for the GPIO pin 15 and call the notchcount2 function when the interrupt is triggered when the button is pressed
+    // Enable interrupts for the GPIO pin 15 and call the gpio_callback function when the interrupt is triggered when the button is pressed
     gpio_set_irq_enabled_with_callback(LEFT_POLLING_PIN, GPIO_IRQ_EDGE_RISE, true, &gpio_callback);
 
     while (1) {

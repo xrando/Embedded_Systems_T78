@@ -1206,9 +1206,9 @@ Discarded input sections
                 0x00000000        0x4 CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .binary_info.__bi_ptr54
                 0x00000000        0x4 CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
- .text          0x00000000        0x0 /var/folders/sm/qp5kpslj4zq768j8dbr71ml80000gn/T//ccOwfVle.o
- .data          0x00000000        0x0 /var/folders/sm/qp5kpslj4zq768j8dbr71ml80000gn/T//ccOwfVle.o
- .bss           0x00000000        0x0 /var/folders/sm/qp5kpslj4zq768j8dbr71ml80000gn/T//ccOwfVle.o
+ .text          0x00000000        0x0 /var/folders/sm/qp5kpslj4zq768j8dbr71ml80000gn/T//ccugwmWe.o
+ .data          0x00000000        0x0 /var/folders/sm/qp5kpslj4zq768j8dbr71ml80000gn/T//ccugwmWe.o
+ .bss           0x00000000        0x0 /var/folders/sm/qp5kpslj4zq768j8dbr71ml80000gn/T//ccugwmWe.o
  .data          0x00000000        0x0 /Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .bss           0x00000000        0x0 /Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .text          0x00000000        0x0 /Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libg.a(libc_a-calloc.o)
@@ -1527,7 +1527,7 @@ LOAD /Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-no
 .boot2          0x10000000      0x100
                 0x10000000                        __boot2_start__ = .
  *(.boot2)
- .boot2         0x10000000      0x100 /var/folders/sm/qp5kpslj4zq768j8dbr71ml80000gn/T//ccOwfVle.o
+ .boot2         0x10000000      0x100 /var/folders/sm/qp5kpslj4zq768j8dbr71ml80000gn/T//ccugwmWe.o
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
@@ -2577,7 +2577,7 @@ LOAD CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico
 LOAD CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj
 LOAD CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj
 LOAD CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
-LOAD /var/folders/sm/qp5kpslj4zq768j8dbr71ml80000gn/T//ccOwfVle.o
+LOAD /var/folders/sm/qp5kpslj4zq768j8dbr71ml80000gn/T//ccugwmWe.o
 LOAD /Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libstdc++.a
 LOAD /Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v6-m/nofp/libm.a
 START GROUP
@@ -2668,7 +2668,7 @@ LOAD linker stubs
  .ARM.attributes
                 0x00000570       0x2c CMakeFiles/motor.dir/Users/seankzw/Desktop/SIT/year_2/y2t1/inf2004-esp/pico/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj
  .ARM.attributes
-                0x0000059c       0x22 /var/folders/sm/qp5kpslj4zq768j8dbr71ml80000gn/T//ccOwfVle.o
+                0x0000059c       0x22 /var/folders/sm/qp5kpslj4zq768j8dbr71ml80000gn/T//ccugwmWe.o
  .ARM.attributes
                 0x000005be       0x1e /Applications/ArmGNUToolchain/12.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v6-m/nofp/libgcc.a(_dvmd_tls.o)
  .ARM.attributes

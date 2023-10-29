@@ -6,8 +6,10 @@
 #include "hardware/timer.h"
 #include <time.h>
 
-void setupUltrasonicPins(uint trigPin, uint echoPin)
+void init(uint trigPin, uint echoPin)
 {
+    stdio_init_all();
+
     gpio_init(trigPin);
     gpio_init(echoPin);
 
@@ -20,14 +22,10 @@ void setupUltrasonicPins(uint trigPin, uint echoPin)
 float getPulse(uint trigPin, uint echoPin)
 {
     time_t time1, time2;
-    //int loop1 = 0;
-    //int loop2 = 0;
 
-    sleep_us(2);
     gpio_put(trigPin, 1);
     sleep_us(10);
     gpio_put(trigPin, 0);
-    sleep_us(2);
 
     while (gpio_get(echoPin) == 0)
     {
@@ -50,24 +48,29 @@ float getPulse(uint trigPin, uint echoPin)
 float getCm(uint trigPin, uint echoPin)
 {
     int pulseLength = getPulse(trigPin, echoPin);
-    // return (float)pulseLength / 2 * 0.0343;
-    return ((float)pulseLength * 0.0343) / 2;
+    float speedOfSound = 343.0;
+
+    // Convert pulse length to distance in centimeters
+    float distanceCm = (pulseLength * speedOfSound) / 20000.0; // Dividing by 20000 to convert from microseconds to seconds
+
+    return distanceCm;
+    //return (float)pulseLength / 2 * 0.0343;
+    //return ((float)pulseLength * 0.0343) / 2;
 }
 
 int main()
 {
-    stdio_init_all();
-
-    sleep_ms(5000);
-    printf("Starting...\n");
-
     uint trigPin = 4;
     uint echoPin = 5;
-    setupUltrasonicPins(trigPin, echoPin);
+
+    printf("Main running...\n");
+    sleep_ms(5000);
+
+    init(trigPin, echoPin);
 
     while (1)
     {
-        printf("\n %.2f cm", getCm(trigPin, echoPin));
-        sleep_ms(1500);
+        printf("Object is about %.2f cm away", getCm(trigPin, echoPin));
+        sleep_ms(500);
     }
 }

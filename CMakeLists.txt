@@ -29,7 +29,7 @@ if (CMAKE_C_COMPILER_ID STREQUAL "GNU")
     add_compile_options(-Wno-maybe-uninitialized)
 endif()
 
-add_subdirectory(barcode_sensor)
+add_subdirectory(barcode_module)
 add_subdirectory(ultrasonic_sensor)
 add_subdirectory(line_sensor)
 add_subdirectory(motor)

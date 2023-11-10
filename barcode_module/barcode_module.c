@@ -75,13 +75,13 @@ barcode_sensor_isr (uint gpio, uint32_t events)
 
 // init ir sensor on gpio pin (replace with function from line_sensor.c)
 void
-ir_sensor_init (uint ir_sensor_pin, void * ir_sensor_isr) 
+ir_sensor_init () 
 {
-    gpio_init(ir_sensor_pin);
-    gpio_set_dir(ir_sensor_pin, GPIO_IN);
-    gpio_set_irq_enabled_with_callback(ir_sensor_pin, GPIO_IRQ_EDGE_RISE 
+    gpio_init(BARCODE_SENSOR_PIN);
+    gpio_set_dir(BARCODE_SENSOR_PIN, GPIO_IN);
+    gpio_set_irq_enabled_with_callback(BARCODE_SENSOR_PIN, GPIO_IRQ_EDGE_RISE 
                                         | GPIO_IRQ_EDGE_FALL, 
-                                        true, ir_sensor_isr);
+                                        true, &barcode_sensor_isr);
 }
 
 // print barcode (for debugging)
@@ -94,24 +94,6 @@ print_barcode (volatile int barcode[ARRAY_SIZE])
     }
     printf("\n");
 }
-
-// function to find smallest value in barcode array (needs optimization)
-// int
-// find_smallest_value (volatile int barcode[ARRAY_SIZE])
-// {
-//     int smallest_value = barcode[0];
-//     for (int i = 1; i < ARRAY_SIZE; i++)
-//     {
-//         if (barcode[i] != 0)
-//         {
-//             if (barcode[i] < smallest_value)
-//             {
-//                 smallest_value = barcode[i];
-//             }
-//         }
-//     }
-//     return smallest_value;
-// }
 
 // function to scale down ascii in barcode array & return string representation
 char *
@@ -170,11 +152,32 @@ scale_down_barcode (volatile int barcode[TEMP_ARRAY_SIZE])
     return barcode_string_ascii;
 }
 
+// reverse string
+char *
+string_reverse(char * string) 
+{
+
+    int length = strlen(string);
+    char * reverse_string = (char *) malloc (length + 1);
+
+    for (int i = 0; i < length; i++) 
+    {
+
+        reverse_string[i] = string[length - i - 1];
+
+    }
+
+    reverse_string[length] = '\0';
+
+    return reverse_string;
+
+}
 
 // convert barcode ascii to barcode value
 char *
 convert_barcode (char * barcode_string)
 {
+
     char * barcode_value = "";
     // compare barcode to barcode values array
     for (int i = 0; i < 44; i++)
@@ -188,7 +191,61 @@ convert_barcode (char * barcode_string)
 
         }
 
+        // check for reverse barcode ascii
+        else if (strcmp(barcode_string, string_reverse(barcode_values_array[i][0])) == 0)
+        {
+
+            barcode_value = barcode_values_array[i][1];
+
+        }
+
     }
 
     return barcode_value;
+
 }
+
+// process and print barcode
+// void
+// process_and_print_barcode () 
+// {
+
+//     // if all barcode ascii is collected
+//     if (g_barcode[18] != 0) 
+//     {
+
+//         // temp barcode array
+//         int temp_barcode[TEMP_ARRAY_SIZE] = {0};
+
+//         // copy barcode array from index 10 to 18, to temp barcode array
+//         memcpy(temp_barcode, &g_barcode[10], sizeof(temp_barcode));
+
+//         printf("temp barcode: ");
+//         for (int i = 0; i < TEMP_ARRAY_SIZE; i++) 
+//         {
+
+//             printf("[%d]", temp_barcode[i]);
+
+//         }
+
+//         printf("\n");
+
+//         // scale down barcode & store in string
+//         char * barcode_ascii_string = scale_down_barcode(temp_barcode);
+//         printf("%s\n", barcode_ascii_string);
+
+//         // convert barcode ascii to barcode value
+//         char * barcode_value_string = convert_barcode(barcode_ascii_string);
+
+//         // print barcode value
+//         printf("%s\n", barcode_value_string);
+
+//         // reset g_index
+//         g_index = 0;
+
+//         // clear barcode array
+//         memset(g_barcode, 0, sizeof(g_barcode));
+
+//     }
+
+// }

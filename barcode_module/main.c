@@ -56,7 +56,7 @@ int main ()
 {
     // init ir sensor
     stdio_init_all();
-    ir_sensor_init(BARCODE_SENSOR_PIN, &barcode_sensor_isr);
+    ir_sensor_init();
 
     for (;;)
     {

@@ -1,45 +1,15 @@
-#include <stdio.h>
-#include <string.h>
-#include <math.h>  
+/** @file magnetometer.c
+ *
+ * @brief Magneometer driver for Raspberry Pi Pico
+ *
+ * @par
+ * COPYRIGHT NOTICE: (c) Singapore Institute of Technology
+ * @author Low Hong Sheng Jovian (2203654), 2023 All rights reserved.
+ */
 
-#include "pico/stdlib.h"
-#include "pico/binary_info.h"
-#include "hardware/i2c.h"
+#include "magnetometer.h"
 
-#define CUSTOM_I2C_SDA_PIN 0  // GP0 for SDA
-#define CUSTOM_I2C_SCL_PIN 1  // GP1 for SCL
-#define MAGNETOMETER_ADDR  0x1E  
-#define i2c_default_port   i2c0
-
-// Define magneto registers values from LSM303DLHC (MY-511) datasheet 
-#define MY511_CRA_REG_M            0x00
-#define MY511_CRB_REG_M            0x01
-#define MY511_MR_REG_M             0x02
-#define MY511_OUT_X_H_M            0x03
-#define MY511_OUT_X_L_M            0x04
-#define MY511_OUT_Z_H_M            0x05
-#define MY511_OUT_Z_L_M            0x06
-#define MY511_OUT_Y_H_M            0x07
-#define MY511_OUT_Y_L_M            0x08
-#define MY511_SR_REG_M             0x09
-
-typedef struct 
-{
-    int16_t      mag[3];
-    float        heading;
-    const char * direction;
-} magnetometer_data;
-
-// Function prototypes
-static void       init_i2c ();
-static void       init_magnetometer ();
-static void       monitor_magnetometer ();
-static void       magnetometer_read_raw (int16_t mag[3]);
-static void       calculate_heading (magnetometer_data *data);
-static const char * heading_direction (float heading);
-magnetometer_data read_and_calculate_heading ();
-
-static void
+void
 init_i2c () 
 {
     // Initialize I2C with 400 kHz clock speed
@@ -56,7 +26,7 @@ init_i2c ()
                                GPIO_FUNC_I2C));
 }
 
-static void
+void
 init_magnetometer () 
 {
     uint8_t config[2] = {0};
@@ -78,7 +48,7 @@ init_magnetometer ()
     i2c_write_blocking(i2c_default_port, MAGNETOMETER_ADDR, buf, 2, false);
 }
 
-static void
+void
 magnetometer_read_raw (int16_t mag[3]) 
 {
     uint8_t buffer[6];
@@ -96,7 +66,7 @@ magnetometer_read_raw (int16_t mag[3])
     mag[2] = (int16_t) (buffer[2] << 8) | buffer[3];  // Z
 }
 
-static const char *
+const char *
 heading_direction (float heading) 
 {
     if (heading >= 22.5f && heading < 67.5f)
@@ -117,7 +87,7 @@ heading_direction (float heading)
         return "North"; // Covers North and remaining degrees towards Northeast
 }
 
-static void
+void
 calculate_heading(magnetometer_data *data) 
 {
     data->heading = atan2(data->mag[1], data->mag[0]) * (180.0f / M_PI);
@@ -140,7 +110,7 @@ magnetometer_data read_and_calculate_heading ()
     return data;
 }
 
-static void
+void
 monitor_magnetometer () 
 {
     for (;;) 
@@ -153,11 +123,11 @@ monitor_magnetometer ()
     }
 }
 
-int 
-main() 
-{
-    stdio_init_all();
-    init_i2c();
-    init_magnetometer();
-    monitor_magnetometer();
-}
+// int 
+// main() 
+// {
+//     stdio_init_all();
+//     init_i2c();
+//     init_magnetometer();
+//     monitor_magnetometer();
+// }

@@ -1,4 +1,8 @@
-add_executable(magnetometer magnetometer.c)
+add_executable(
+    magnetometer
+    magnetometer.h
+    magnetometer.c
+    main.c)
 
 # pull in common dependencies
 target_link_libraries(magnetometer pico_stdlib hardware_i2c)

@@ -30,14 +30,45 @@
 // Debounce time in microseconds
 #define DEBOUNCE_TIME_USEC 50000
 
-// Gloabl variables to store the speed of the wheels
+// Duty cycle for the PWM
+// 2 in this case is 50% duty cycle as the range is 0 to 4
+#define DUTY_CYCLE 2
+
+// PID constants
+float Kp = 0.1;
+int Ki = 10;
+int Kd = 1;
+
+// Global variables for calculating distance
+float rightTotalDistance = 0.0;
+float leftTotalDistance = 0.0;
+
+// Global variables to store the speed of the wheels
 volatile float speed_of_right_wheel = 0.0;
 volatile float speed_of_left_wheel = 0.0;
+
+// PID value for the right wheel
+volatile float right_wheel_pid = 0.0;
 
 // Time variables to calculate speed
 uint16_t current_time = 0;
 uint64_t right_last_time = 0;
 uint64_t left_last_time = 0;
+
+// PID controller function
+static float calculate_pid(float current_speed, float desired_speed, float previous_error, float integration_sum) {
+
+    // Calculate error terms
+    float error = desired_speed - current_speed;
+    float integral = integration_sum + error;
+    float derivative = error - previous_error;
+
+    // Calculate PID value
+    float pid = Kp * error + Ki * integral + Kd * derivative;
+
+    
+    return pid;
+}
 
 static float calculate_speed(float time_difference){
     float speed = DISTANCE_BETWEEN_NOTCHES_CM / (time_difference/1000000.0);
@@ -56,6 +87,9 @@ void gpio_callback(uint gpio, uint32_t events) {
             uint64_t time_difference = current_time - right_last_time;
             right_last_time = current_time;
             speed_of_right_wheel = calculate_speed(time_difference);
+            // right_wheel_pid = calculate_pid(speed_of_right_wheel, 120, 0, 0); // Adjust desired_speed as needed
+            // printf("Right wheel pid: %.2f\n", right_wheel_pid);
+            rightTotalDistance += DISTANCE_BETWEEN_NOTCHES_CM;
         }
     }
     else if (gpio == LEFT_POLLING_PIN){
@@ -64,6 +98,9 @@ void gpio_callback(uint gpio, uint32_t events) {
             uint64_t time_difference = current_time - left_last_time;
             left_last_time = current_time;
             speed_of_left_wheel = calculate_speed(time_difference);
+            // float left_wheel_pid = calculate_pid(speed_of_left_wheel, 120, 0, 0); // Adjust desired_speed as needed
+            // printf("Left wheel pid before: %.2f\n", left_wheel_pid);
+            leftTotalDistance += DISTANCE_BETWEEN_NOTCHES_CM;
         }    
     }
 }
@@ -75,17 +112,24 @@ static void forward() {
     gpio_pull_up(RIGHT_INPUT_PIN_2);
 }
 
-static void backward() {
-    gpio_pull_up(LEFT_INPUT_PIN);
-    gpio_pull_down(LEFT_INPUT_PIN_2);
+static void turn_left() {
+    gpio_pull_down(LEFT_INPUT_PIN);  // gpio_pull_down(LEFT_INPUT_PIN)
+    gpio_pull_up(LEFT_INPUT_PIN_2);
     gpio_pull_up(RIGHT_INPUT_PIN);
     gpio_pull_down(RIGHT_INPUT_PIN_2);
 }
 
-static void turn_left() {
+static void turn_right() {
     gpio_pull_up(LEFT_INPUT_PIN);
     gpio_pull_down(LEFT_INPUT_PIN_2);
-    gpio_pull_down(RIGHT_INPUT_PIN);
+    gpio_pull_down(RIGHT_INPUT_PIN);  // gpio_pull_down(RIGHT_INPUT_PIN);
+    gpio_pull_up(RIGHT_INPUT_PIN_2);
+}
+
+static void stop() {
+    gpio_pull_up(LEFT_INPUT_PIN);
+    gpio_pull_up(LEFT_INPUT_PIN_2);
+    gpio_pull_up(RIGHT_INPUT_PIN);
     gpio_pull_up(RIGHT_INPUT_PIN_2);
 }
 
@@ -114,6 +158,16 @@ int main() {
     gpio_set_dir(LEFT_POLLING_PIN, GPIO_IN);
     gpio_pull_up(LEFT_POLLING_PIN);
 
+    // Setting up the GPIO pins for right motor
+    gpio_init(RIGHT_POLLING_PIN);
+    gpio_set_dir(RIGHT_POLLING_PIN, GPIO_IN);
+    gpio_pull_up(RIGHT_POLLING_PIN);
+
+    // Setting up the GPIO pins for left motor
+    gpio_init(LEFT_POLLING_PIN);
+    gpio_set_dir(LEFT_POLLING_PIN, GPIO_IN);
+    gpio_pull_up(LEFT_POLLING_PIN);
+
     // Find out which PWM slice is connected to GPIO 0 (it's slice 0)
     uint slice_num = pwm_gpio_to_slice_num(0);
 
@@ -121,14 +175,29 @@ int main() {
     pwm_set_wrap(slice_num, 12500);
 
     // Set channel A output high for one cycle before dropping
-    pwm_set_chan_level(slice_num, PWM_CHAN_A, 12500 / 2);
-    pwm_set_chan_level(slice_num, PWM_CHAN_B, 12500 / 2);
+    pwm_set_chan_level(slice_num, PWM_CHAN_A, 12500 / DUTY_CYCLE);
+    pwm_set_chan_level(slice_num, PWM_CHAN_B, 12500 / DUTY_CYCLE);
 
     pwm_set_clkdiv(slice_num, 100);
     // Set the PWM running
     pwm_set_enabled(slice_num, true);
     
+    sleep_ms(2000);
+
     forward();
+    sleep_ms(2000);
+    // backward();
+    // sleep_ms(2000);
+    turn_left();
+    sleep_ms(2000);
+    forward();
+    sleep_ms(2000);
+    turn_right();
+    sleep_ms(2000);
+    forward();
+    sleep_ms(2000);
+    stop();
+    sleep_ms(1000);
 
     // Enable interrupts for the GPIO pin 14 and call the gpio_callback function when the interrupt is triggered when the button is pressed
     gpio_set_irq_enabled_with_callback(RIGHT_POLLING_PIN, GPIO_IRQ_EDGE_RISE, true, &gpio_callback);
@@ -138,8 +207,9 @@ int main() {
     while (1) {
         // Wait forever, until interrupt request (IRQ) is received
         printf("Speed of right wheel: %.2f cm/s\n", speed_of_right_wheel);
-        sleep_ms(1000);
         printf("Speed of left wheel: %.2f cm/s\n", speed_of_left_wheel);
-        sleep_ms(1000);
+        printf("Total distance travelled by right wheel: %.2f cm\n", rightTotalDistance);
+        printf("Total distance travelled by left wheel: %.2f cm\n", leftTotalDistance);
+        sleep_ms(2000);
     }
 }

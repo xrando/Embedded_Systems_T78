@@ -1,6 +1,7 @@
 // import all the header files
 #include "line_sensor/line_sensor.h"
 #include "barcode_module/barcode_module.h"
+#include "motor/motor.h"
 
 // init global variables
 bool         g_left_ir_triggered         = false;
@@ -60,6 +61,8 @@ int main ()
 {
     stdio_init_all();
     ir_sensor_init();
+    motor_sensor_init();
+
     for (;;)
     {
 
@@ -69,30 +72,34 @@ int main ()
 
 
         // start moving
+        forward();
 
         // if both IR sensors are triggered, move forward (maybe need some magneto logic in here)
         if (g_left_ir_triggered && g_right_ir_triggered)
         {
             printf("Both IR sensors on line\n");
             // move forward
-
+            forward();
         }
         else if (g_left_ir_triggered)
         {
             printf("Only left IR sensor on line\n");
             // turn right
+            turn_right();
 
         }
         else if (g_right_ir_triggered)
         {
             printf("Only right IR sensor on line\n");
             // turn left
+            turn_left();
 
         }
         else
         {
             printf("No IR sensors on line\n");
             // stop
+            stop();
 
         }
 
@@ -103,9 +110,9 @@ int main ()
         {
             printf("Collision detected\n");
             // stop
-
+            stop();
             // reverse
-
+            backward();
         }
 
 

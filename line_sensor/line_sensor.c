@@ -6,6 +6,7 @@
 
 #include "line_sensor.h"
 #include "barcode_module/barcode_module.h"
+#include "motor/motor.h"
 
 void line_sensor_isr (uint gpio, uint32_t events) 
 {
@@ -107,9 +108,31 @@ void sensor_isr (uint gpio, uint32_t events)
                 }
             }
             break;
-        // Add more isr handlers here
-        // case MOTOR_SENSOR_PIN:
-        //     break;
+        // motor isrs
+        case RIGHT_POLLING_PIN:
+            if (current_time - left_last_triggered > DEBOUNCE_TIME_USEC)
+            {
+                uint64_t current_time = time_us_64();
+                uint64_t time_difference = current_time - right_last_time;
+                right_last_time = current_time;
+                speed_of_right_wheel = calculate_speed(time_difference);
+                // right_wheel_pid = calculate_pid(speed_of_right_wheel, 120, 0, 0); // Adjust desired_speed as needed
+                // printf("Right wheel pid: %.2f\n", right_wheel_pid);
+                rightTotalDistance += DISTANCE_BETWEEN_NOTCHES_CM;
+            }
+            break;
+        case LEFT_POLLING_PIN:
+            if (current_time - left_last_triggered > DEBOUNCE_TIME_USEC)
+            {
+                uint64_t current_time = time_us_64();
+                uint64_t time_difference = current_time - left_last_time;
+                left_last_time = current_time;
+                speed_of_left_wheel = calculate_speed(time_difference);
+                // float left_wheel_pid = calculate_pid(speed_of_left_wheel, 120, 0, 0); // Adjust desired_speed as needed
+                // printf("Left wheel pid before: %.2f\n", left_wheel_pid);
+                leftTotalDistance += DISTANCE_BETWEEN_NOTCHES_CM;
+            }
+            break;
 
 
         default:

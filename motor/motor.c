@@ -5,13 +5,6 @@
 #include "hardware/pwm.h"
 #include "hardware/gpio.h"
 
-// Pins to control the Left Motor
-#define LEFT_INPUT_PIN 2
-#define LEFT_INPUT_PIN_2 3
-
-// Pins to control the Right Motor
-#define RIGHT_INPUT_PIN 6
-#define RIGHT_INPUT_PIN_2 7
 
 void backward() {
     gpio_pull_down(LEFT_INPUT_PIN);
@@ -47,3 +40,22 @@ void stop() {
     gpio_pull_up(RIGHT_INPUT_PIN);
     gpio_pull_up(RIGHT_INPUT_PIN_2);
 }
+
+// PID controller function
+float calculate_pid(float current_speed, float desired_speed, float previous_error, float integration_sum) {
+    // Calculate error terms
+    float error = desired_speed - current_speed;
+    float integral = integration_sum + error;
+    float derivative = error - previous_error;
+
+    // Calculate PID value
+    float pid = Kp * error + Ki * integral + Kd * derivative;
+
+    return pid;
+}
+
+float calculate_speed(float time_difference) {
+    float speed = DISTANCE_BETWEEN_NOTCHES_CM / (time_difference / 1000000.0);
+    return speed;
+}
+

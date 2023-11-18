@@ -48,7 +48,9 @@ void forward();
 void backward();
 void turn_left();
 void turn_right();
+void slow_down(int current_speed);
 void stop();
+void set_speed(int speed_level);
 float calculate_pid(float current_speed, float desired_speed, float previous_error, float integration_sum);
 float calculate_speed(float time_difference);
 

@@ -120,7 +120,7 @@ int main ()
         {
             printf("Barcode detected\n");
             // change speed
-
+            slow_down(DUTY_CYCLE);
         }
         
         // if all barcode ascii is collected

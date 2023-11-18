@@ -13,8 +13,8 @@
 #include <stdio.h>
 #include "pico/stdlib.h"
 
-#define LEFT_IR_SENSOR_PIN 16
-#define RIGHT_IR_SENSOR_PIN 2
+#define LEFT_IR_SENSOR_PIN 20   // 16
+#define RIGHT_IR_SENSOR_PIN 21  // 2
 #define DEBOUNCE_TIME_USEC  50000
 
 // function prototypes

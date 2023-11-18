@@ -9,6 +9,14 @@
 
 #include "magnetometer.h"
 
+/*!
+ * @brief Initializes I2C for peripheral communication.
+ *
+ * Configures I2C with a 400 kHz clock, sets up GPIO pins for I2C (SDA and SCL),
+ * enables pull-up resistors, and registers these pins for I2C use. This setup
+ * is essential for connecting and communicating with low-speed peripherals
+ * like sensors.
+ */
 void
 init_i2c () 
 {
@@ -26,21 +34,26 @@ init_i2c ()
                                GPIO_FUNC_I2C));
 }
 
+/*!
+ * @brief Initializes the magnetometer for data acquisition.
+ *
+ * This function configures the magnetometer by setting its registers through
+ * I2C communication. It selects and sets the CRA register to a data output
+ * rate of 15Hz and the CRB register to a gain of +/- 1.3g. It also configures
+ * the magnetometer to operate in continuous conversion mode, allowing it to
+ * continuously measure and update its data registers.
+ */
 void
 init_magnetometer () 
 {
     uint8_t config[2] = {0};
     
-	// Select CRA register(0x00)
-	// Data output rate = 15Hz(0x10)
 	config[0] = MY511_CRA_REG_M;
-	config[1] = 0x10;
+	config[1] = 0x10; // Data output rate = 15Hz(0x10)
     i2c_write_blocking(i2c_default_port, MAGNETOMETER_ADDR, config, 2, false);
 
-	// Select CRB register(0x01)
-	// Set gain = +/- 1.3g(0x20)
 	config[0] = MY511_CRB_REG_M;
-	config[1] = 0x20;
+	config[1] = 0x20; // Set gain = +/- 1.3g(0x20)
     i2c_write_blocking(i2c_default_port, MAGNETOMETER_ADDR, config, 2, false);
 
     // Continuous conversion mode
@@ -48,6 +61,18 @@ init_magnetometer ()
     i2c_write_blocking(i2c_default_port, MAGNETOMETER_ADDR, buf, 2, false);
 }
 
+/*!
+ * @brief Reads raw data from the magnetometer.
+ *
+ * This function communicates with the magnetometer via I2C to obtain raw
+ * magnetic field data. It sequentially reads the values from the magnetometer's
+ * registers corresponding to the X, Y, and Z axes. These values are then
+ * combined to form 16-bit integers representing the magnetic field strength
+ * along each axis.
+ *
+ * @param mag[3] An array to store the raw magnetic field strengths for
+ *               X, Y, and Z axes.
+ */
 void
 magnetometer_read_raw (int16_t mag[3]) 
 {
@@ -66,6 +91,19 @@ magnetometer_read_raw (int16_t mag[3])
     mag[2] = (int16_t) (buffer[2] << 8) | buffer[3];  // Z
 }
 
+/*!
+ * @brief Determines the compass direction from a given heading angle.
+ *
+ * This function takes a heading angle in degrees and returns the corresponding
+ * compass direction as a string. The heading angle is compared against 
+ * predefined ranges that correspond to the eight principal wind directions:
+ * North, Northeast, East, Southeast, South, Southwest, West, and Northwest.
+ *
+ * @param heading The heading angle in degrees, typically obtained from
+ * a magnetometer.
+ * @return A string representing the compass direction corresponding to
+ * the heading angle.
+ */
 const char *
 heading_direction (float heading) 
 {
@@ -87,6 +125,17 @@ heading_direction (float heading)
         return "North"; // Covers North and remaining degrees towards Northeast
 }
 
+/*!
+ * @brief Calculates and stores the heading and compass direction from
+          magnetometer data.
+ *
+ * Computes the heading from the X and Y magnetic fields, adjusts it to
+ * a 0-360 degree range, and determines the corresponding compass direction.
+ * The results are stored in the provided magnetometer_data structure.
+ *
+ * @param data Pointer to magnetometer_data structure for storing the
+ *             computed values.
+ */
 void
 calculate_heading(magnetometer_data *data) 
 {
@@ -102,6 +151,18 @@ calculate_heading(magnetometer_data *data)
     data->direction = heading_direction(data->heading);
 }
 
+/*!
+ * @brief Reads raw magnetometer data and calculates the heading and direction.
+ *
+ * This function first reads the raw data from the magnetometer using 
+ * `magnetometer_read_raw`. It then calculates the heading and the corresponding
+ * compass direction based on this raw data by calling `calculate_heading`.
+ * The final heading and direction are encapsulated in the `magnetometer_data`
+ * structure.
+ *
+ * @return A `magnetometer_data` structure containing the raw magnetic field
+ *         values (X, Y, Z), the calculated heading, and the compass direction.
+ */
 magnetometer_data read_and_calculate_heading () 
 {
     magnetometer_data data;
@@ -110,6 +171,14 @@ magnetometer_data read_and_calculate_heading ()
     return data;
 }
 
+/*!
+ * @brief Continuously monitors and outputs magnetometer readings.
+ *
+ * In an infinite loop, this function reads magnetometer data, calculates the
+ * heading, and prints the X, Y, Z values, heading in degrees, and compass
+ * direction. It pauses for 200 milliseconds between iterations to regulate
+ * data processing and output frequency.
+ */
 void
 monitor_magnetometer () 
 {
@@ -122,12 +191,3 @@ monitor_magnetometer ()
         sleep_ms(200);
     }
 }
-
-// int 
-// main() 
-// {
-//     stdio_init_all();
-//     init_i2c();
-//     init_magnetometer();
-//     monitor_magnetometer();
-// }

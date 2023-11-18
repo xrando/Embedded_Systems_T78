@@ -115,7 +115,14 @@ int main ()
             backward();
         }
 
+        // if barcode detected, slow down
+        if (g_barcode_detected)
+        {
+            printf("Barcode detected\n");
+            // change speed
 
+        }
+        
         // if all barcode ascii is collected
         if (g_index == ARRAY_SIZE)
         {

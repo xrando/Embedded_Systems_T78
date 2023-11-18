@@ -24,7 +24,7 @@ extern const char * barcode_values_array[44][2];
 // function prototypes
 bool    debounce                    (uint gpio, uint32_t events);
 void    barcode_sensor_isr          (uint gpio, uint32_t events);
-void    ir_sensor_init              ();
+//void    ir_sensor_init              ();
 void    print_barcode               (volatile int barcode[ARRAY_SIZE]);
 char *  scale_down_barcode          (volatile int barcode[ARRAY_SIZE]);
 char *  string_reverse              (char * string);

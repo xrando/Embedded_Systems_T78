@@ -91,15 +91,15 @@ barcode_sensor_isr (uint gpio, uint32_t events)
 
 
 // init ir sensor on gpio pin (replace with function from line_sensor.c)
-void
-ir_sensor_init () 
-{
-    gpio_init(BARCODE_SENSOR_PIN);
-    gpio_set_dir(BARCODE_SENSOR_PIN, GPIO_IN);
-    gpio_set_irq_enabled_with_callback(BARCODE_SENSOR_PIN, GPIO_IRQ_EDGE_RISE 
-                                        | GPIO_IRQ_EDGE_FALL, 
-                                        true, &barcode_sensor_isr);
-}
+// void
+// ir_sensor_init () 
+// {
+//     gpio_init(BARCODE_SENSOR_PIN);
+//     gpio_set_dir(BARCODE_SENSOR_PIN, GPIO_IN);
+//     gpio_set_irq_enabled_with_callback(BARCODE_SENSOR_PIN, GPIO_IRQ_EDGE_RISE 
+//                                         | GPIO_IRQ_EDGE_FALL, 
+//                                         true, &barcode_sensor_isr);
+// }
 
 // print barcode (for debugging)
 void

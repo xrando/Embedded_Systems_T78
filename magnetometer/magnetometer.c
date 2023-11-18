@@ -5,6 +5,9 @@
  * @par
  * COPYRIGHT NOTICE: (c) Singapore Institute of Technology
  * @author Low Hong Sheng Jovian (2203654), 2023 All rights reserved.
+ * 
+ * The initialization was done with guidance from the following source:
+ * https://github.com/ControlEverythingCommunity/LSM303DLHC/blob/master/C/LSM303DLHC.c
  */
 
 #include "magnetometer.h"

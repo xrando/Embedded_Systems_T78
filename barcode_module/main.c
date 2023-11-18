@@ -1,3 +1,12 @@
+/** @file main.c
+ *
+ * @brief Main file to test barcode driver for Raspberry Pi Pico
+ *
+ * @par
+ * COPYRIGHT NOTICE: (c) Singapore Institute of Technology
+ * @author Benjamin Loh Choon How (2201590), 2023 All rights reserved.
+ */
+
 #include "barcode_module.h"
 
 // init global variables

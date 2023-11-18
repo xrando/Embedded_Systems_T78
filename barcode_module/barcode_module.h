@@ -1,3 +1,12 @@
+/** @file barcode_module.h
+ *
+ * @brief Header file for barcode driver for Raspberry Pi Pico
+ *
+ * @par
+ * COPYRIGHT NOTICE: (c) Singapore Institute of Technology
+ * @author Benjamin Loh Choon How (2201590), 2023 All rights reserved.
+ */
+
 #ifndef BARCODE_MODULE_H
 #define BARCODE_MODULE_H
 

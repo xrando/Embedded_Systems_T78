@@ -1,3 +1,12 @@
+/** @file line_sensor.h
+ *
+ * @brief Header file for IR sensor driver for Raspberry Pi Pico
+ *
+ * @par
+ * COPYRIGHT NOTICE: (c) Singapore Institute of Technology
+ * @author Benjamin Loh Choon How (2201590), 2023 All rights reserved.
+ */
+
 #ifndef LINE_SENSOR_H
 #define LINE_SENSOR_H
 

@@ -31,6 +31,6 @@ endif()
 
 add_subdirectory(barcode_module)
 add_subdirectory(line_sensor)
-add_subdirectory(ultrasonic_sensor)
+add_subdirectory(ultrasonic)
 add_subdirectory(motor)
 add_subdirectory(web-ui)

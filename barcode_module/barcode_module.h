@@ -17,7 +17,7 @@
 #include <stdlib.h>
 #include <limits.h>
 
-#define BARCODE_SENSOR_PIN                  0
+#define BARCODE_SENSOR_PIN                  4 // 0 
 #define DEBOUNCE_TIME_USEC                  100000
 #define ARRAY_SIZE                          27
 #define BARCODE_SENSE_TIME_INTERVAL_MS      50

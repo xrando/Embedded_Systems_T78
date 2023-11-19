@@ -41,7 +41,7 @@ void slow_down(int current_speed) {
         int target_speed = current_speed + 1; // Calculate the target speed (increase by 25%)
         while (current_speed < target_speed) {
             set_speed(++current_speed); // Increase duty cycle by 25%
-            sleep_ms(100);
+            sleep_ms(1000);
     }
 }
 
@@ -53,8 +53,20 @@ void stop() {
 }
 
 void set_speed(int speed_level) { // level is between 0 and 4, 2 being 50% duty cycle
-    pwm_set_chan_level(slice_num, PWM_CHAN_A, 12500 / (speed_level));
-    pwm_set_chan_level(slice_num, PWM_CHAN_B, 12500 / (speed_level));
+    uint slice_num = pwm_gpio_to_slice_num(0);
+
+    // Set period of 4 cycles (0 to 3 inclusive)
+    pwm_set_wrap(slice_num, 12500);
+
+    // Division variable
+    int div = 12500 / speed_level;
+
+    pwm_set_chan_level(slice_num, PWM_CHAN_A, div);
+    pwm_set_chan_level(slice_num, PWM_CHAN_B, div);
+
+    pwm_set_clkdiv(slice_num, 100);
+    // Set the PWM running
+    pwm_set_enabled(slice_num, true);
 }
 
 // PID controller function

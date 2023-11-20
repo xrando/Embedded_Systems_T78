@@ -43,7 +43,7 @@ extern float speed_of_right_wheel;
 extern float speed_of_left_wheel;
 extern float right_wheel_pid;
 
-
+void motor_sensor_init();
 void forward();
 void backward();
 void turn_left();
@@ -53,6 +53,5 @@ void stop();
 void set_speed(int speed_level);
 float calculate_pid(float current_speed, float desired_speed, float previous_error, float integration_sum);
 float calculate_speed(float time_difference);
-
 
 #endif // MOTOR_H

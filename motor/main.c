@@ -79,7 +79,7 @@ uint64_t left_last_time = 0;
 // }
 
 // init motor
-void motor_sensor_init ()
+void motor_sensor_init()
 {
     // Tell GPIO 0 and 1 they are allocated to the PWM
     gpio_set_function(0, GPIO_FUNC_PWM);
@@ -145,17 +145,23 @@ int main() {
 
     // sleep_ms(2000);
 
-    // forward();
-    // sleep_ms(2000);
+    forward();
+    sleep_ms(1000);
     // backward();
-    // sleep_ms(2000);
+    // sleep_ms(1000);
     // turn_left();
-    // sleep_ms(2000);
+    // sleep_ms(1000);
     // forward();
     // sleep_ms(2000);
     // turn_right();
-    // sleep_ms(2000);
-    forward();
+    // sleep_ms(1000);
+    slow_down(DUTY_CYCLE);
+    sleep_ms(1000);
+    set_speed(3);
+    sleep_ms(1000);
+    set_speed(2);
+    sleep_ms(1000);
+    set_speed(1);
     sleep_ms(1000);
     stop();
     sleep_ms(1000);

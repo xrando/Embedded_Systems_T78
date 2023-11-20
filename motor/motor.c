@@ -64,7 +64,6 @@ void forward() {
     gpio_pull_down(LEFT_INPUT_PIN_2);
     gpio_pull_up(RIGHT_INPUT_PIN);
     gpio_pull_down(RIGHT_INPUT_PIN_2);
-    printf("Forward\n");
 }
 
 void turn_right() {

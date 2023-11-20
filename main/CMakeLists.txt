@@ -1,12 +1,13 @@
 project(EMBEDDED_SYSTEMS_T78)
 
 # Create an executable file from the main.c in the main subdirectory
-add_executable(main
+add_executable(
+    main
     main.c
     ../line_sensor/line_sensor.c
     ../magnetometer/magnetometer.c
     ../motor/motor.c
-    # ../ultrasonic/ultrasonic.c
+    ../ultrasonic/ultrasonic.c
     ../barcode_module/barcode_module.c
     # Include other .c files as necessary
 )
@@ -19,7 +20,7 @@ target_include_directories(main PRIVATE
     ${CMAKE_CURRENT_LIST_DIR}/../magnetometer
     ${CMAKE_CURRENT_LIST_DIR}/../motor
     ${CMAKE_CURRENT_LIST_DIR}/../line_sensor
-    # ${CMAKE_CURRENT_LIST_DIR}/../ultrasonic
+    ${CMAKE_CURRENT_LIST_DIR}/../ultrasonic
     ${CMAKE_CURRENT_LIST_DIR}/../barcode_module
     # ... Add other directories as necessary
 )

@@ -48,24 +48,24 @@ void sensor_isr (uint gpio, uint32_t events)
 
     switch (gpio)
     {
-        case LEFT_IR_SENSOR_PIN:
-            // if passed debounce
-            if (current_time - left_last_triggered > DEBOUNCE_TIME_USEC)
-            {
-                // return true if white line detected
-                g_left_ir_triggered = gpio_get(LEFT_IR_SENSOR_PIN) == 0 ? true : false;
-                left_last_triggered = current_time;
-            }
-            break;
-        case RIGHT_IR_SENSOR_PIN:
-            // if passed debounce
-            if (current_time - right_last_triggered > DEBOUNCE_TIME_USEC)
-            {
-                // return true if white line detected
-                g_right_ir_triggered = gpio_get(RIGHT_IR_SENSOR_PIN) == 0 ? true : false;
-                right_last_triggered = current_time;
-            }
-            break;
+        // case LEFT_IR_SENSOR_PIN:
+        //     // if passed debounce
+        //     if (current_time - left_last_triggered > DEBOUNCE_TIME_USEC)
+        //     {
+        //         // return true if white line detected
+        //         g_left_ir_triggered = gpio_get(LEFT_IR_SENSOR_PIN) == 0 ? true : false;
+        //         left_last_triggered = current_time;
+        //     }
+        //     break;
+        // case RIGHT_IR_SENSOR_PIN:
+        //     // if passed debounce
+        //     if (current_time - right_last_triggered > DEBOUNCE_TIME_USEC)
+        //     {
+        //         // return true if white line detected
+        //         g_right_ir_triggered = gpio_get(RIGHT_IR_SENSOR_PIN) == 0 ? true : false;
+        //         right_last_triggered = current_time;
+        //     }
+        //     break;
         case BARCODE_SENSOR_PIN:
             // if passed debounce
             if (debounce(gpio, events))
@@ -143,16 +143,37 @@ void sensor_isr (uint gpio, uint32_t events)
     }
 }
 
+bool
+repeating_left_ir_callback_isr (struct repeating_timer *p_timer) 
+{
+    // get gpio pin result and update global variable
+    g_left_ir_triggered = gpio_get(LEFT_IR_SENSOR_PIN) == 0 ? true : false;
+    return true;
+}
+
+bool
+repeating_right_ir_callback_isr (struct repeating_timer *p_timer) 
+{
+    // get gpio pin result and update global variable
+    g_right_ir_triggered = gpio_get(RIGHT_IR_SENSOR_PIN) == 0 ? true : false;
+    return true;
+}
+
 // initialize ir sensors
 void ir_sensor_init ()
 {
+    static struct repeating_timer  timer1        = {0};
+    static struct repeating_timer  timer2        = {0};
     gpio_init(LEFT_IR_SENSOR_PIN);
     gpio_init(RIGHT_IR_SENSOR_PIN);
     gpio_init(BARCODE_SENSOR_PIN);
     gpio_set_dir(LEFT_IR_SENSOR_PIN, GPIO_IN);
     gpio_set_dir(RIGHT_IR_SENSOR_PIN, GPIO_IN);
     gpio_set_dir(BARCODE_SENSOR_PIN, GPIO_IN);
-    gpio_set_irq_enabled_with_callback(LEFT_IR_SENSOR_PIN, GPIO_IRQ_EDGE_RISE | GPIO_IRQ_EDGE_FALL, true, &sensor_isr);
-    gpio_set_irq_enabled(RIGHT_IR_SENSOR_PIN, GPIO_IRQ_EDGE_RISE | GPIO_IRQ_EDGE_FALL, true);
-    gpio_set_irq_enabled(BARCODE_SENSOR_PIN, GPIO_IRQ_EDGE_RISE | GPIO_IRQ_EDGE_FALL, true);
+    gpio_set_irq_enabled_with_callback(BARCODE_SENSOR_PIN, GPIO_IRQ_EDGE_RISE | GPIO_IRQ_EDGE_FALL, true, &sensor_isr);
+    // gpio_set_irq_enabled(RIGHT_IR_SENSOR_PIN, GPIO_IRQ_EDGE_RISE | GPIO_IRQ_EDGE_FALL, true);
+    // gpio_set_irq_enabled(BARCODE_SENSOR_PIN, GPIO_IRQ_EDGE_RISE | GPIO_IRQ_EDGE_FALL, true);
+    // add repeating timer for ir sensors
+    add_repeating_timer_ms(-LINE_SENSOR_TIMER_INTERVAL_MS, &repeating_left_ir_callback_isr, NULL, &timer1);
+    add_repeating_timer_ms(-LINE_SENSOR_TIMER_INTERVAL_MS, &repeating_right_ir_callback_isr, NULL, &timer2);
 }

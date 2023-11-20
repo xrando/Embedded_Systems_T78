@@ -1,5 +1,6 @@
 add_executable(ultrasonic
         ultrasonic.c
+        ultrasonic.h
         )
 
 # pull in common dependencies

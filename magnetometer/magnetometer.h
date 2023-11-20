@@ -19,8 +19,8 @@
 #include "pico/binary_info.h"
 #include "hardware/i2c.h"
 
-#define CUSTOM_I2C_SDA_PIN 0  // GP0 for SDA
-#define CUSTOM_I2C_SCL_PIN 1  // GP1 for SCL
+#define CUSTOM_I2C_SDA_PIN 12  // GP12 for SDA
+#define CUSTOM_I2C_SCL_PIN 13  // GP13 for SCL
 #define MAGNETOMETER_ADDR  0x1E  
 #define i2c_default_port   i2c0
 
@@ -37,13 +37,27 @@
 #define MY511_SR_REG_M             0x09
 
 extern float initial_heading;
+extern bool set_initial_heading; 
+
+extern float curr_heading;
+extern bool  is_initial_heading_set; // Flag to check if initial heading is set
+
+typedef enum 
+{
+    FRONT,
+    BACK,
+    LEFT,
+    RIGHT,
+    UNKNOWN_DIRECTION
+} directions;
 
 typedef struct 
 {
     int16_t      mag[3];
     float        heading;
     const char * direction;
-    bool         hit_boundary; 
+    // bool         hit_boundary; 
+    directions heading_direction; // New field for direction as enum
 } magnetometer_data;
 
 // Function prototypes
@@ -55,5 +69,6 @@ void calculate_heading(magnetometer_data *data);
 const char* heading_direction(float heading);
 magnetometer_data read_and_calculate_heading();
 void check_boundary_hit(magnetometer_data *data); 
+void setup_init_heading();
 
 #endif 

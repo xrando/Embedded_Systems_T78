@@ -14,6 +14,8 @@
 
 float initial_heading = 0.0f;
 
+bool set_initial_heading = false; 
+
 /*!
  * @brief Initializes I2C for peripheral communication.
  *
@@ -187,28 +189,112 @@ magnetometer_data read_and_calculate_heading ()
 void
 monitor_magnetometer () 
 {
-    for (;;) 
-    {
-        magnetometer_data mag_data = read_and_calculate_heading();
+    // for (;;) 
+    // {
+    magnetometer_data mag_data = read_and_calculate_heading();
 
-        // call function to check if boundary is hit
-        check_boundary_hit(&mag_data);
+    // call function to check if boundary is hit
+    check_boundary_hit(&mag_data);
 
-        printf("Mag. X = %d, Y = %d, Z = %d, Heading = %.2f°, Direction = %s\n",
-               mag_data.mag[0], mag_data.mag[1], mag_data.mag[2], 
-               mag_data.heading, mag_data.direction);
-        sleep_ms(200);
-    }
+    printf("Mag. X = %d, Y = %d, Z = %d, Heading = %.2f°, Direction = %s\n",
+            mag_data.mag[0], mag_data.mag[1], mag_data.mag[2], 
+            mag_data.heading, mag_data.direction);
+    sleep_ms(200);
+    // }
 }
 
-void check_boundary_hit(magnetometer_data *data) 
+// void check_boundary_hit(magnetometer_data *data) 
+// {
+//     float heading_difference = fabs(data->heading - initial_heading);
+//     if (heading_difference > 90.0) 
+//     {
+//         data->hit_boundary = true;
+//     } else 
+//     {
+//         data->hit_boundary = false;
+//     }
+// }
+
+void 
+check_boundary_hit (magnetometer_data *data) 
 {
-    float heading_difference = fabs(data->heading - initial_heading);
-    if (heading_difference > 90.0) 
+    float heading_difference = fmod(fabs(data->heading - initial_heading + 360.0), 360.0);
+
+    if (heading_difference <= 45.0 || heading_difference > 315.0) 
     {
-        data->hit_boundary = true;
-    } else 
+        data->heading_direction = FRONT;
+    } 
+    else if (heading_difference > 45.0 && heading_difference <= 135.0) 
     {
-        data->hit_boundary = false;
+        data->heading_direction = RIGHT;
+    } 
+    else if (heading_difference > 135.0 && heading_difference <= 225.0) 
+    {
+
+        data->heading_direction = BACK;
+    } 
+    else if (heading_difference > 225.0 && heading_difference <= 315.0) 
+    {
+        data->heading_direction = LEFT;
+    } 
+    else 
+    {
+        data->heading_direction = UNKNOWN_DIRECTION;
     }
 }
+
+void 
+setup_init_heading () 
+{
+    // Assume we have a function to get the current heading
+    magnetometer_data current_data = read_and_calculate_heading();
+    initial_heading = current_data.heading;
+    set_initial_heading = true;
+}
+
+// void 
+// turn_fixed_degree(Turn_Direction direction) 
+// {
+//     magnetometer_data current_data = read_and_calculate_heading();
+//     float current_heading = current_data.heading;
+//     float target_heading;
+
+//     // Determine the target heading based on the turn direction
+//     // Need to stop after that
+//     switch (direction) 
+//     {
+//         case TURN_LEFT:
+//             // Turn left 90 degrees
+//             target_heading = fmod(current_heading - 90.0f, 360.0f);
+//             printf("It is turning right!!\n");
+//             break;
+//         case TURN_RIGHT:
+//             // Turn right 90 degrees
+//             target_heading = fmod(current_heading + 90.0f, 360.0f);
+//             printf("It is turning left!!\n");
+//             break;
+//         case TURN_FORWARD:
+//             // Keep the same heading
+//             target_heading = current_heading;
+//             printf("It is going forward!!\n");
+//             break;
+//         case TURN_BACKWARD:
+//             // Turn 180 degrees to face the opposite direction
+//             target_heading = fmod(current_heading + 180.0f, 360.0f);
+//             printf("It is going backward!!\n");
+//             break;
+//         default:
+//             // Invalid direction, handle error
+//             return;
+//     }
+
+//     if (target_heading < 0)
+//     {
+//         target_heading += 360.0f; // Ensure the target heading is positive
+//     } 
+
+//     // Implement the control mechanism here to physically turn the device
+//     // For example: turn_device_to_heading(target_heading);
+
+//     // ... Rest of the function to verify the orientation and adjust if necessary
+// }

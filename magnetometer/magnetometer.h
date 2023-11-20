@@ -36,11 +36,14 @@
 #define MY511_OUT_Y_L_M            0x08
 #define MY511_SR_REG_M             0x09
 
+extern float initial_heading;
+
 typedef struct 
 {
     int16_t      mag[3];
     float        heading;
     const char * direction;
+    bool         hit_boundary; 
 } magnetometer_data;
 
 // Function prototypes
@@ -51,5 +54,6 @@ void magnetometer_read_raw(int16_t mag[3]);
 void calculate_heading(magnetometer_data *data);
 const char* heading_direction(float heading);
 magnetometer_data read_and_calculate_heading();
+void check_boundary_hit(magnetometer_data *data); 
 
 #endif 

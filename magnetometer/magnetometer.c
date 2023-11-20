@@ -12,6 +12,8 @@
 
 #include "magnetometer.h"
 
+float initial_heading = 0.0f;
+
 /*!
  * @brief Initializes I2C for peripheral communication.
  *
@@ -188,9 +190,25 @@ monitor_magnetometer ()
     for (;;) 
     {
         magnetometer_data mag_data = read_and_calculate_heading();
+
+        // call function to check if boundary is hit
+        check_boundary_hit(&mag_data);
+
         printf("Mag. X = %d, Y = %d, Z = %d, Heading = %.2f°, Direction = %s\n",
                mag_data.mag[0], mag_data.mag[1], mag_data.mag[2], 
                mag_data.heading, mag_data.direction);
         sleep_ms(200);
+    }
+}
+
+void check_boundary_hit(magnetometer_data *data) 
+{
+    float heading_difference = fabs(data->heading - initial_heading);
+    if (heading_difference > 90.0) 
+    {
+        data->hit_boundary = true;
+    } else 
+    {
+        data->hit_boundary = false;
     }
 }

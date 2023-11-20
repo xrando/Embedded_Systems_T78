@@ -9,6 +9,59 @@
  */
 
 #include "barcode_module.h"
+#include "../line_sensor/line_sensor.h"
+
+// init global variables
+bool         g_barcode_detected          = false;
+int          g_barcode[ARRAY_SIZE]       = {0};
+int          g_index                     = 0;
+const char * barcode_values_array[44][2] = 
+{
+    {"111221211","0"},
+    {"211211112","1"},
+    {"112211112","2"},
+    {"212211111","3"},
+    {"111221112","4"},
+    {"211221111","5"},
+    {"112221111","6"},
+    {"111211212","7"},
+    {"211211211","8"},
+    {"112211211","9"},
+    {"211112112","A"},
+    {"112112112","B"},
+    {"212112111","C"},
+    {"111122112","D"},
+    {"211122111","E"},
+    {"112122111","F"},
+    {"111112212","G"},
+    {"211112211","H"},
+    {"112112211","I"},
+    {"111122211","J"},
+    {"211111122","K"},
+    {"112111122","L"},
+    {"212111121","M"},
+    {"111121122","N"},
+    {"211121121","O"},
+    {"112121121","P"},
+    {"111111222","Q"},
+    {"211111221","R"},
+    {"112111221","S"},
+    {"111121221","T"},
+    {"221111112","U"},
+    {"122111112","V"},
+    {"222111111","W"},
+    {"121121112","X"},
+    {"221121111","Y"},
+    {"122121111","Z"},
+    {"121111212","-"},
+    {"221111211","."},
+    {"122111211"," "},
+    {"121212111","$"},
+    {"121211121","/"},
+    {"121112121","+"},
+    {"111212121","%"},
+    {"121121211","*"}
+};
 
 // Function to debounce button (use debounce from line_sensor.c)
 bool debounce (uint gpio, uint32_t events) 
@@ -43,57 +96,57 @@ repeating_timer_callback_isr (struct repeating_timer *p_timer)
 }
 
 // to integrate with isr in line sensor module
-void
-barcode_sensor_isr (uint gpio, uint32_t events) 
-{
-    static uint                    time_counter = 0u;
-    static struct repeating_timer  timer        = {0};
+// void
+// barcode_sensor_isr (uint gpio, uint32_t events) 
+// {
+//     static uint                    time_counter = 0u;
+//     static struct repeating_timer  timer        = {0};
 
-    // if passed debounce
-    if (debounce(gpio, events))
-    {
-        // if line is white
-        if (gpio_get(BARCODE_SENSOR_PIN) == 0)
-        {
-            // set state of barcode sensor
-            printf("White line debounce\n");
+//     // if passed debounce
+//     if (debounce(gpio, events))
+//     {
+//         // if line is white
+//         if (gpio_get(BARCODE_SENSOR_PIN) == 0)
+//         {
+//             // set state of barcode sensor
+//             printf("White line debounce\n");
             
-            if (time_counter != 0u)
-            {
-                // stop counting time
-                cancel_repeating_timer(&timer);
-                // store in array
-                g_barcode[g_index] = time_counter;
-                g_index++;
-                time_counter = 0;
-            }
-            // measure pulse width of black line
-            add_repeating_timer_ms(-BARCODE_SENSE_TIME_INTERVAL_MS, repeating_timer_callback_isr, 
-                                &time_counter, &timer);
-            g_barcode_detected = true;
-        }
-        else
-        {
-            // set state of barcode sensor
-            printf("Black line debounce\n");
-            if (time_counter != 0u)
-            {
-                // stop counting time
-                cancel_repeating_timer(&timer);
-                //printf("Final Time: %us\n", time_counter);
-                // store in array
-                g_barcode[g_index] = time_counter;
-                g_index++;
-                time_counter = 0;
-            }
-            // measure pulse width of white line
-            add_repeating_timer_ms(-BARCODE_SENSE_TIME_INTERVAL_MS, repeating_timer_callback_isr, 
-                              &time_counter, &timer);
-            g_barcode_detected = false;
-        }
-    }
+//             if (time_counter != 0u)
+//             {
+//                 // stop counting time
+//                 cancel_repeating_timer(&timer);
+//                 // store in array
+//                 g_barcode[g_index] = time_counter;
+//                 g_index++;
+//                 time_counter = 0;
+//             }
+//             // measure pulse width of black line
+//             add_repeating_timer_ms(-BARCODE_SENSE_TIME_INTERVAL_MS, repeating_timer_callback_isr, 
+//                                 &time_counter, &timer);
+//             g_barcode_detected = true;
+//         }
+//         else
+//         {
+//             // set state of barcode sensor
+//             printf("Black line debounce\n");
+//             if (time_counter != 0u)
+//             {
+//                 // stop counting time
+//                 cancel_repeating_timer(&timer);
+//                 //printf("Final Time: %us\n", time_counter);
+//                 // store in array
+//                 g_barcode[g_index] = time_counter;
+//                 g_index++;
+//                 time_counter = 0;
+//             }
+//             // measure pulse width of white line
+//             add_repeating_timer_ms(-BARCODE_SENSE_TIME_INTERVAL_MS, repeating_timer_callback_isr, 
+//                               &time_counter, &timer);
+//             g_barcode_detected = false;
+//         }
+//     }
 
-}
+// }
 
 
 // init ir sensor on gpio pin (replace with function from line_sensor.c)

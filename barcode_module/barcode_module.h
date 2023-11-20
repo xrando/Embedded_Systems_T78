@@ -18,7 +18,7 @@
 #include <limits.h>
 
 #define BARCODE_SENSOR_PIN                  4 // 0 
-#define DEBOUNCE_TIME_USEC                  100000
+//#define DEBOUNCE_TIME_USEC                  100000
 #define ARRAY_SIZE                          27
 #define BARCODE_SENSE_TIME_INTERVAL_MS      50
 
@@ -38,6 +38,10 @@ void    print_barcode               (volatile int barcode[ARRAY_SIZE]);
 char *  scale_down_barcode          (volatile int barcode[ARRAY_SIZE]);
 char *  string_reverse              (char * string);
 char *  convert_barcode             (char * barcode_string);
+
+// Declaration of the ISR function
+bool repeating_timer_callback_isr(struct repeating_timer *t);
+
 //void    process_and_print_barcode   () 
 
 #endif

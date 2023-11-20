@@ -26,7 +26,7 @@ float speed_of_left_wheel = 0.0;
 float right_wheel_pid = 0.0;
 
 // Time variables to calculate speed
-uint16_t current_time = 0;
+uint64_t current_time = 0;
 uint64_t right_last_time = 0;
 uint64_t left_last_time = 0;
 
@@ -78,39 +78,7 @@ uint64_t left_last_time = 0;
 //     }
 // }
 
-// init motor
-void motor_sensor_init()
-{
-    // Tell GPIO 0 and 1 they are allocated to the PWM
-    gpio_set_function(0, GPIO_FUNC_PWM);
-    gpio_set_function(1, GPIO_FUNC_PWM);
 
-    // Setting up the GPIO pins for right motor
-    gpio_init(RIGHT_POLLING_PIN);
-    gpio_set_dir(RIGHT_POLLING_PIN, GPIO_IN);
-    gpio_pull_up(RIGHT_POLLING_PIN);
-
-    // Setting up the GPIO pins for left motor
-    gpio_init(LEFT_POLLING_PIN);
-    gpio_set_dir(LEFT_POLLING_PIN, GPIO_IN);
-    gpio_pull_up(LEFT_POLLING_PIN);
-
-    // Find out which PWM slice is connected to GPIO 0 (it's slice 0)
-    uint slice_num = pwm_gpio_to_slice_num(0);
-
-    // Set period of 4 cycles (0 to 3 inclusive)
-    pwm_set_wrap(slice_num, 12500);
-
-    // Set channel A output high for one cycle before dropping
-    pwm_set_chan_level(slice_num, PWM_CHAN_A, 12500 / DUTY_CYCLE);
-    pwm_set_chan_level(slice_num, PWM_CHAN_B, 12500 / DUTY_CYCLE);
-
-    pwm_set_clkdiv(slice_num, 100);
-    // Set the PWM running
-    pwm_set_enabled(slice_num, true);
-    gpio_set_irq_enabled(RIGHT_POLLING_PIN, GPIO_IRQ_EDGE_RISE, true);
-    gpio_set_irq_enabled(LEFT_POLLING_PIN, GPIO_IRQ_EDGE_RISE, true);
-}
 
 int main() {
     stdio_init_all();

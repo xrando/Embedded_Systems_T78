@@ -5,34 +5,37 @@
  */
 
 #include "line_sensor.h"
-#include "barcode_module/barcode_module.h"
-#include "motor/motor.h"
+#include "../barcode_module/barcode_module.h"
+#include "../motor/motor.h"
 
-void line_sensor_isr (uint gpio, uint32_t events) 
-{
-    uint64_t current_time           = time_us_64();
-    uint64_t left_last_triggered    = 0;
-    uint64_t right_last_triggered   = 0;
+// void line_sensor_isr (uint gpio, uint32_t events) 
+// {
+//     uint64_t current_time           = time_us_64();
+//     uint64_t left_last_triggered    = 0;
+//     uint64_t right_last_triggered   = 0;
 
-    if (gpio == LEFT_IR_SENSOR_PIN)
-    {
-        if (current_time - left_last_triggered > DEBOUNCE_TIME_USEC)
-        {
-            g_left_ir_triggered = gpio_get(LEFT_IR_SENSOR_PIN) == 0 ? true : false;
-            left_last_triggered = current_time;
-        }
-    }
-    else if (gpio == RIGHT_IR_SENSOR_PIN)
-    {
-        if (current_time - right_last_triggered > DEBOUNCE_TIME_USEC)
-        {
-            g_right_ir_triggered = gpio_get(RIGHT_IR_SENSOR_PIN) == 0 ? true : false;
-            right_last_triggered = current_time;
-        }
-    }
-}
+//     if (gpio == LEFT_IR_SENSOR_PIN)
+//     {
+//         if (current_time - left_last_triggered > DEBOUNCE_TIME_USEC)
+//         {
+//             g_left_ir_triggered = gpio_get(LEFT_IR_SENSOR_PIN) == 0 ? true : false;
+//             left_last_triggered = current_time;
+//         }
+//     }
+//     else if (gpio == RIGHT_IR_SENSOR_PIN)
+//     {
+//         if (current_time - right_last_triggered > DEBOUNCE_TIME_USEC)
+//         {
+//             g_right_ir_triggered = gpio_get(RIGHT_IR_SENSOR_PIN) == 0 ? true : false;
+//             right_last_triggered = current_time;
+//         }
+//     }
+// }
 
-// combined isr for all sensors
+// bool g_left_ir_triggered = false;
+// bool g_right_ir_triggered = false;
+
+// // combined isr for all sensors
 void sensor_isr (uint gpio, uint32_t events)
 {
     // for debounce

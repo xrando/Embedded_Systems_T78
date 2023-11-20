@@ -3,6 +3,8 @@
 #ifndef MOTOR_H
 #define MOTOR_H
 
+#include <stdint.h>  // Include this header to define uint64_t
+
 // Pins to control the Left Motor
 #define LEFT_INPUT_PIN 2
 #define LEFT_INPUT_PIN_2 3
@@ -27,7 +29,7 @@
 #define NOTCHES 20
 
 // Debounce time in microseconds
-#define DEBOUNCE_TIME_USEC 50000
+// #define DEBOUNCE_TIME_USEC 50000
 
 // Duty cycle for the PWM
 // 2 in this case is 50% duty cycle as the range is 0 to 4
@@ -42,6 +44,9 @@ extern float leftTotalDistance;
 extern float speed_of_right_wheel;
 extern float speed_of_left_wheel;
 extern float right_wheel_pid;
+extern uint64_t current_time;
+extern uint64_t right_last_time;
+extern uint64_t left_last_time;
 
 void motor_sensor_init();
 void forward();

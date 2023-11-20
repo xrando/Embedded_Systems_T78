@@ -1,7 +1,11 @@
+project(EMBEDDED_SYSTEMS_T78)
+
 add_executable(line_sensor
         line_sensor.c
         main.c
         line_sensor.h
+        ../motor/motor.h
+        ../barcode_module/barcode_module.h
         )
 
 # pull in common dependencies

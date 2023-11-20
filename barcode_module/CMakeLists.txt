@@ -1,4 +1,12 @@
-add_executable(barcode_module barcode_module.c main.c barcode_module.h)
+project(EMBEDDED_SYSTEMS_T78)
+
+add_executable(
+    barcode_module
+    barcode_module.c
+    main.c
+    barcode_module.h
+    ../line_sensor/line_sensor.c
+)
 
 # pull in common dependencies
 target_link_libraries(barcode_module pico_stdlib)

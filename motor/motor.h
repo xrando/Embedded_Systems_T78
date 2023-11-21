@@ -58,5 +58,7 @@ void stop();
 void set_speed(int speed_level);
 float calculate_pid(float current_speed, float desired_speed, float previous_error, float integration_sum);
 float calculate_speed(float time_difference);
+uint32_t pwm_set_freq_duty(unsigned int slice_num, unsigned int chan, uint32_t f, int d);
+
 
 #endif // MOTOR_H

@@ -2,7 +2,8 @@
 add_executable(motor 
                 motor.c
                 motor.h
-                main.c)
+                # main.c
+                )
 
 # pull in common dependencies
 target_link_libraries(motor pico_stdlib pico_cyw43_arch_none hardware_pwm hardware_adc hardware_gpio)

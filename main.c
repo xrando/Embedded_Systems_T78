@@ -2,6 +2,7 @@
 #include "line_sensor/line_sensor.h"
 #include "barcode_module/barcode_module.h"
 #include "motor/motor.h"
+#include "wifi/wifi.h"
 
 // init global variables
 bool         g_left_ir_triggered         = false;
@@ -62,6 +63,7 @@ int main ()
     stdio_init_all();
     ir_sensor_init();
     motor_sensor_init();
+    wifi_init(); //Sean added 
 
     for (;;)
     {

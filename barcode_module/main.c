@@ -8,11 +8,16 @@
  */
 
 #include "barcode_module.h"
+#include "wifi.h"
+#include "Iwipopts.h"
+#include "cgi.h"
+#include "ssi.h"
 
 // init global variables
 bool         g_barcode_detected          = false;
 int          g_barcode[ARRAY_SIZE]       = {0};
 int          g_index                     = 0;
+float        globalVariable              = 889;
 const char * barcode_values_array[44][2] = 
 {
     {"111221211","0"},
@@ -67,6 +72,9 @@ int main ()
     stdio_init_all();
     ir_sensor_init();
 
+    //Wifi
+    wifi_init();
+
     for (;;)
     {
 
@@ -86,6 +94,7 @@ int main ()
 
             // print barcode value
             printf("%s\n", barcode_value_string);
+            globalVariable = barcode_value_string;
             
             // reset g_index
             g_index = 0;

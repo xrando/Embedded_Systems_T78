@@ -7,7 +7,7 @@ execute_process(COMMAND
 )
 
 add_executable(${PROGRAM_NAME}
-    main.c
+    wifi.c
 )
 
 target_include_directories(${PROGRAM_NAME} PRIVATE

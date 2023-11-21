@@ -2,8 +2,10 @@
 #include "pico/cyw43_arch.h"
 #include "hardware/adc.h"
 
+extern float globalVariable;
+
 // SSI tags - tag length limited to 8 bytes by default
-const char * ssi_tags[] = {"volt","temp","led"};
+const char * ssi_tags[] = {"volt","temp","led", "barcode"};
 
 u16_t ssi_handler(int iIndex, char *pcInsert, int iInsertLen) {
   size_t printed;
@@ -30,6 +32,11 @@ u16_t ssi_handler(int iIndex, char *pcInsert, int iInsertLen) {
       else{
         printed = snprintf(pcInsert, iInsertLen, "OFF");
       }
+    }
+    break;
+  case 3: // barcode
+    {
+      snprintf(pcInsert, iInsertLen, "%f", globalVariable);
     }
     break;
   default:

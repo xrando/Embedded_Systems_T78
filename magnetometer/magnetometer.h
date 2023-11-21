@@ -69,6 +69,8 @@ void calculate_heading(magnetometer_data *data);
 const char* heading_direction(float heading);
 magnetometer_data read_and_calculate_heading();
 void check_boundary_hit(magnetometer_data *data); 
+bool is_within_range(float heading, float target, float range);
 void setup_init_heading();
+float get_current_heading();
 
 #endif 

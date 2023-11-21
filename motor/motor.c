@@ -5,6 +5,7 @@
 #include "hardware/pwm.h"
 #include "hardware/gpio.h"
 #include <stdio.h>
+#include <stdint.h>
 
 float Kp = 0.1f;
 int Ki = 10;
@@ -98,6 +99,21 @@ void stop() {
     gpio_pull_up(RIGHT_INPUT_PIN_2);
 }
 
+uint32_t pwm_set_freq_duty(unsigned int slice_num, unsigned int chan, uint32_t f, int d)
+{
+    uint32_t clock = 125000000;
+    uint32_t divider16 = clock / f / 4096 + (clock % (f * 4096) != 0);
+    if (divider16 / 16 == 0)
+    {
+        divider16 = 16;
+    }
+    uint32_t wrap = clock * 16 / divider16 / f - 1;
+    pwm_set_clkdiv_int_frac(slice_num, divider16 / 16, divider16 & 0xF);
+    pwm_set_wrap(slice_num, wrap);
+    pwm_set_chan_level(slice_num, chan, wrap * d / 100);
+    return wrap;
+}
+
 void set_speed(int speed_level) { // level is between 0 and 4, 2 being 50% duty cycle
     uint slice_num = pwm_gpio_to_slice_num(0);
 
@@ -114,6 +130,29 @@ void set_speed(int speed_level) { // level is between 0 and 4, 2 being 50% duty 
     // Set the PWM running
     pwm_set_enabled(slice_num, true);
 }
+
+// void set_speed(int speed_level) 
+// {
+//     uint slice_num = pwm_gpio_to_slice_num(0);
+//     uint chan1 = PWM_CHAN_A; // Assuming you are using channel A
+//     uint chan2 = PWM_CHAN_B; // Assuming you are using channel B
+
+//     // Safety check for speed_level
+//     if (speed_level < 1 || speed_level > 4) {
+//         pwm_set_chan_level(slice_num, chan1, 0); // Set duty cycle to 0 (motor stop)
+//         pwm_set_chan_level(slice_num, chan2, 0); // Set duty cycle to 0 (motor stop)
+//         return;
+//     }
+
+//     // Calculate duty cycle based on speed_level
+//     int div = 12500 / speed_level; // Original logic for calculating duty cycle
+
+//     // Set duty cycle for PWM channels
+//     pwm_set_chan_level(slice_num, chan1, div);
+//     pwm_set_chan_level(slice_num, chan2, div);
+
+//     // No need to change frequency or re-enable PWM as it's already set in init
+// }
 
 // PID controller function
 float calculate_pid(float current_speed, float desired_speed, float previous_error, float integration_sum) {

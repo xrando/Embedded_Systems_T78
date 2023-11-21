@@ -6,10 +6,10 @@
 #include "cgi.h"
 
 // WIFI Credentials - take care if pushing to github!
-const char WIFI_SSID[] = "TimoGS21";
-const char WIFI_PASSWORD[] = "eueo9438";
+//const char WIFI_SSID[] = "TimoGS21";
+//const char WIFI_PASSWORD[] = "eueo9438";
 
-int main() {
+void wifi_init(){
     stdio_init_all();
 
     cyw43_arch_init();
@@ -32,7 +32,4 @@ int main() {
     printf("SSI Handler initialised\n");
     cgi_init();
     printf("CGI Handler initialised\n");
-
-    // Infinite loop
-    while(1);
 }

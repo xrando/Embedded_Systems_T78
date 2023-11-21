@@ -230,7 +230,6 @@ check_boundary_hit (magnetometer_data *data)
     } 
     else if (heading_difference > 135.0 && heading_difference <= 225.0) 
     {
-
         data->heading_direction = BACK;
     } 
     else if (heading_difference > 225.0 && heading_difference <= 315.0) 
@@ -243,6 +242,35 @@ check_boundary_hit (magnetometer_data *data)
     }
 }
 
+// void check_boundary_hit(magnetometer_data *data) {
+//     // Calculate target headings for each direction based on current heading
+//     float target_right = fmod(data->heading + 90.0, 360.0);
+//     float target_left = fmod(data->heading - 90.0 + 360.0, 360.0);
+//     float target_back = fmod(data->heading + 180.0, 360.0);
+
+//     // Read the new current heading
+//     magnetometer_data new_data = read_and_calculate_heading();
+//     float new_heading = new_data.heading;
+
+//     // Determine the relative direction based on the new heading
+//     if (is_within_range(new_heading, data->heading, 1.0)) {
+//         data->heading_direction = FRONT;
+//     } else if (is_within_range(new_heading, target_right, 1.0)) {
+//         data->heading_direction = RIGHT;
+//     } else if (is_within_range(new_heading, target_back, 1.0)) {
+//         data->heading_direction = BACK;
+//     } else if (is_within_range(new_heading, target_left, 1.0)) {
+//         data->heading_direction = LEFT;
+//     } else {
+//         data->heading_direction = UNKNOWN_DIRECTION;
+//     }
+// }
+
+// bool is_within_range(float heading, float target, float range) {
+//     float diff = fmod(fabs(heading - target + 360.0), 360.0);
+//     return (diff <= range || diff >= (360.0 - range));
+// }
+
 void 
 setup_init_heading () 
 {
@@ -250,6 +278,11 @@ setup_init_heading ()
     magnetometer_data current_data = read_and_calculate_heading();
     initial_heading = current_data.heading;
     set_initial_heading = true;
+}
+
+float get_current_heading() {
+    magnetometer_data current_data = read_and_calculate_heading();
+    return current_data.heading;
 }
 
 // void 

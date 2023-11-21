@@ -32,8 +32,8 @@
 //     }
 // }
 
-// bool g_left_ir_triggered = false;
-// bool g_right_ir_triggered = false;
+bool g_left_ir_triggered = false;
+bool g_right_ir_triggered = false;
 
 // // combined isr for all sensors
 void sensor_isr (uint gpio, uint32_t events)
@@ -67,49 +67,35 @@ void sensor_isr (uint gpio, uint32_t events)
         //     }
         //     break;
         case BARCODE_SENSOR_PIN:
-            // if passed debounce
-            if (debounce(gpio, events))
+            // Check for debounce
+            if (!debounce(gpio, events))
             {
-                // if line is white
-                if (gpio_get(BARCODE_SENSOR_PIN) == 0)
-                {
-                    // set state of barcode sensor
-                    printf("White line debounce\n");
-                    
-                    if (time_counter != 0u)
-                    {
-                        // stop counting time
-                        cancel_repeating_timer(&timer);
-                        // store in array
-                        g_barcode[g_index] = time_counter;
-                        g_index++;
-                        time_counter = 0;
-                    }
-                    // measure pulse width of black line
-                    add_repeating_timer_ms(-BARCODE_SENSE_TIME_INTERVAL_MS, repeating_timer_callback_isr, 
-                                        &time_counter, &timer);
-                    g_barcode_detected = true;
-                }
-                else
-                {
-                    // set state of barcode sensor
-                    printf("Black line debounce\n");
-                    if (time_counter != 0u)
-                    {
-                        // stop counting time
-                        cancel_repeating_timer(&timer);
-                        //printf("Final Time: %us\n", time_counter);
-                        // store in array
-                        g_barcode[g_index] = time_counter;
-                        g_index++;
-                        time_counter = 0;
-                    }
-                    // measure pulse width of white line
-                    add_repeating_timer_ms(-BARCODE_SENSE_TIME_INTERVAL_MS, repeating_timer_callback_isr, 
-                                    &time_counter, &timer);
-                    g_barcode_detected = false;
-                }
+                return;
             }
+            
+            // Update the last barcode detection time
+            update_last_barcode_detection_time();
+
+            // Determine the state of the barcode sensor
+            bool is_white_line = (gpio_get(BARCODE_SENSOR_PIN) == 0);
+
+            // Print the state for debugging
+            printf(is_white_line ? "White line debounce\n" : "Black line debounce\n");
+
+            // If there's an ongoing time count, stop it and store the value
+            if (time_counter != 0u)
+            {
+                cancel_repeating_timer(&timer);
+                g_barcode[g_index++] = time_counter;
+                time_counter = 0;
+            }
+
+            // Start a timer to measure the pulse width
+            add_repeating_timer_ms(-BARCODE_SENSE_TIME_INTERVAL_MS, repeating_timer_callback_isr, 
+                                &time_counter, &timer);
+
+            // Update the global state
+            g_barcode_detected = is_white_line;
             break;
         // motor isrs
         case RIGHT_POLLING_PIN:
@@ -166,14 +152,19 @@ void ir_sensor_init ()
     static struct repeating_timer  timer2        = {0};
     gpio_init(LEFT_IR_SENSOR_PIN);
     gpio_init(RIGHT_IR_SENSOR_PIN);
-    gpio_init(BARCODE_SENSOR_PIN);
+    //gpio_init(BARCODE_SENSOR_PIN);
     gpio_set_dir(LEFT_IR_SENSOR_PIN, GPIO_IN);
     gpio_set_dir(RIGHT_IR_SENSOR_PIN, GPIO_IN);
-    gpio_set_dir(BARCODE_SENSOR_PIN, GPIO_IN);
-    gpio_set_irq_enabled_with_callback(BARCODE_SENSOR_PIN, GPIO_IRQ_EDGE_RISE | GPIO_IRQ_EDGE_FALL, true, &sensor_isr);
+    //gpio_set_dir(BARCODE_SENSOR_PIN, GPIO_IN);
+    // gpio_set_irq_enabled_with_callback(LEFT_IR_SENSOR_PIN, GPIO_IRQ_EDGE_RISE | GPIO_IRQ_EDGE_FALL, true, &sensor_isr);
     // gpio_set_irq_enabled(RIGHT_IR_SENSOR_PIN, GPIO_IRQ_EDGE_RISE | GPIO_IRQ_EDGE_FALL, true);
-    // gpio_set_irq_enabled(BARCODE_SENSOR_PIN, GPIO_IRQ_EDGE_RISE | GPIO_IRQ_EDGE_FALL, true);
+    //  gpio_set_irq_enabled(BARCODE_SENSOR_PIN, GPIO_IRQ_EDGE_RISE | GPIO_IRQ_EDGE_FALL, true);
     // add repeating timer for ir sensors
     add_repeating_timer_ms(-LINE_SENSOR_TIMER_INTERVAL_MS, &repeating_left_ir_callback_isr, NULL, &timer1);
     add_repeating_timer_ms(-LINE_SENSOR_TIMER_INTERVAL_MS, &repeating_right_ir_callback_isr, NULL, &timer2);
+
+    // repeating timer for clearing barcode array
+    // static struct repeating_timer repeating_barcode_clear_timer = {0};
+    // add_repeating_timer_ms(-BARCODE_RESET_TIMEOUT_MS, repeating_barcode_clear_callback_isr, 
+    //                        NULL, &repeating_barcode_clear_timer);
 }

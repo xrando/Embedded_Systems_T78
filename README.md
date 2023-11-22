@@ -1,5 +1,5 @@
-![image](https://github.com/xrando/Embedded_Systems_T78/assets/56796695/533ae622-50ac-477b-9cb6-344ba529317c)# Embedded_Systems_T78
-Embedded systems project group repository for team 78
+# Embedded_Systems_T78
+##Embedded systems project group repository for team 78
 
 ### Flowcharts
 **Barcode**

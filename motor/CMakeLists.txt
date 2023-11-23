@@ -6,7 +6,8 @@ add_executable(motor
                 )
 
 # pull in common dependencies
-target_link_libraries(motor pico_stdlib pico_cyw43_arch_none hardware_pwm hardware_adc hardware_gpio)
+target_link_libraries(motor pico_stdlib pico_cyw43_arch_none hardware_pwm 
+                        hardware_adc hardware_gpio)
 
 # enable usb output, enable uart output
 pico_enable_stdio_usb(motor 1)

@@ -3,7 +3,7 @@
 #ifndef MOTOR_H
 #define MOTOR_H
 
-#include <stdint.h>  // Include this header to define uint64_t
+#include <stdint.h>  // Library for uint64_t data type
 
 // Pins to control the Left Motor
 #define LEFT_INPUT_PIN 2
@@ -32,15 +32,15 @@
 // #define DEBOUNCE_TIME_USEC 50000
 
 // Duty cycle for the PWM
-// 2 in this case is 50% duty cycle as the range is 0 to 4
+// 2 in this case is 50% duty cycle
 #define DUTY_CYCLE 2
 
 // Global variables
 extern float Kp;
 extern int   Ki;
 extern int   Kd;
-extern float rightTotalDistance;
-extern float leftTotalDistance;
+extern float right_motor_distance;
+extern float left_motor_distance;
 extern float speed_of_right_wheel;
 extern float speed_of_left_wheel;
 extern float right_wheel_pid;
@@ -48,6 +48,7 @@ extern uint64_t current_time;
 extern uint64_t right_last_time;
 extern uint64_t left_last_time;
 
+// Function prototypes
 void motor_sensor_init();
 void forward();
 void backward();
@@ -56,9 +57,8 @@ void turn_right();
 void slow_down(int current_speed);
 void stop();
 void set_speed(int speed_level);
-float calculate_pid(float current_speed, float desired_speed, float previous_error, float integration_sum);
+float calculate_pid(float current_speed, float desired_speed,
+                        float previous_error, float integration_sum);
 float calculate_speed(float time_difference);
-uint32_t pwm_set_freq_duty(unsigned int slice_num, unsigned int chan, uint32_t f, int d);
-
 
 #endif // MOTOR_H

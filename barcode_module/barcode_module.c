@@ -9,7 +9,6 @@
  */
 
 #include "barcode_module.h"
-#include "../line_sensor/line_sensor.h"
 
 // init global variables
 bool         g_barcode_detected          = false;
@@ -86,7 +85,7 @@ bool debounce (uint gpio, uint32_t events)
     }
 
     return true;
-}
+} /* debounce() */
 
 bool
 repeating_timer_callback_isr (struct repeating_timer *p_timer) 
@@ -94,62 +93,62 @@ repeating_timer_callback_isr (struct repeating_timer *p_timer)
     // Increment counter
     (*(uint *) p_timer->user_data)++;
     return true;
-}
+} /* repeating_timer_callback_isr() */
 
-// // to integrate with isr in line sensor module
-// void
-// barcode_sensor_isr (uint gpio, uint32_t events) 
-// {
-//     static uint                    time_counter = 0u;
-//     static struct repeating_timer  timer        = {0};
+// to integrate with isr in line sensor module
+void
+barcode_sensor_isr (uint gpio, uint32_t events) 
+{
+    static uint                    time_counter = 0u;
+    static struct repeating_timer  timer        = {0};
 
-//     // Check for debounce
-//     if (!debounce(gpio, events))
-//     {
-//         return;
-//     }
+    // Check for debounce
+    if (!debounce(gpio, events))
+    {
+        return;
+    }
     
-//     // Update the last barcode detection time
-//     update_last_barcode_detection_time();
+    // Update the last barcode detection time
+    update_last_barcode_detection_time();
 
-//     // Determine the state of the barcode sensor
-//     bool is_white_line = (gpio_get(BARCODE_SENSOR_PIN) == 0);
+    // Determine the state of the barcode sensor
+    bool is_white_line = (gpio_get(BARCODE_SENSOR_PIN) == 0);
 
-//     // Print the state for debugging
-//     printf(is_white_line ? "White line debounce\n" : "Black line debounce\n");
+    // Print the state for debugging
+    printf(is_white_line ? "White line debounce\n" : "Black line debounce\n");
 
-//     // If there's an ongoing time count, stop it and store the value
-//     if (time_counter != 0u)
-//     {
-//         cancel_repeating_timer(&timer);
-//         g_barcode[g_index++] = time_counter;
-//         time_counter = 0;
-//     }
+    // If there's an ongoing time count, stop it and store the value
+    if (time_counter != 0u)
+    {
+        cancel_repeating_timer(&timer);
+        g_barcode[g_index++] = time_counter;
+        time_counter = 0;
+    }
 
-//     // Start a timer to measure the pulse width
-//     add_repeating_timer_ms(-BARCODE_SENSE_TIME_INTERVAL_MS, repeating_timer_callback_isr, 
-//                            &time_counter, &timer);
+    // Start a timer to measure the pulse width
+    add_repeating_timer_ms(-BARCODE_SENSE_TIME_INTERVAL_MS, repeating_timer_callback_isr, 
+                           &time_counter, &timer);
 
-//     // Update the global state
-//     g_barcode_detected = is_white_line;
+    // Update the global state
+    g_barcode_detected = is_white_line;
 
-// }
+} /* barcode_sensor_isr() */
 
 
-// // init ir sensor on gpio pin (replace with function from line_sensor.c)
-// void
-// ir_sensor_init () 
-// {
-//     gpio_init(BARCODE_SENSOR_PIN);
-//     gpio_set_dir(BARCODE_SENSOR_PIN, GPIO_IN);
-//     gpio_set_irq_enabled_with_callback(BARCODE_SENSOR_PIN, GPIO_IRQ_EDGE_RISE 
-//                                         | GPIO_IRQ_EDGE_FALL, 
-//                                         true, &barcode_sensor_isr);
-//     // repeating timer for clearing barcode array
-//     static struct repeating_timer repeating_barcode_clear_timer = {0};
-//     add_repeating_timer_ms(-BARCODE_RESET_TIMEOUT_MS, repeating_barcode_clear_callback_isr, 
-//                            NULL, &repeating_barcode_clear_timer);
-// }
+// init ir sensor on gpio pin (replace with function from line_sensor.c)
+void
+ir_sensor_init () 
+{
+    gpio_init(BARCODE_SENSOR_PIN);
+    gpio_set_dir(BARCODE_SENSOR_PIN, GPIO_IN);
+    gpio_set_irq_enabled_with_callback(BARCODE_SENSOR_PIN, GPIO_IRQ_EDGE_RISE 
+                                        | GPIO_IRQ_EDGE_FALL, 
+                                        true, &barcode_sensor_isr);
+    // repeating timer for clearing barcode array
+    static struct repeating_timer repeating_barcode_clear_timer = {0};
+    add_repeating_timer_ms(-BARCODE_RESET_TIMEOUT_MS, repeating_barcode_clear_callback_isr, 
+                           NULL, &repeating_barcode_clear_timer);
+} /* ir_sensor_init() */
 
 // print barcode (for debugging)
 void
@@ -160,7 +159,7 @@ print_barcode (volatile int barcode[ARRAY_SIZE])
         printf("[%d]", barcode[i]);
     }
     printf("\n");
-}
+} /* print_barcode() */
 
 // function to scale down ascii in barcode array & return string representation
 char *
@@ -217,7 +216,7 @@ scale_down_barcode (volatile int barcode[TEMP_ARRAY_SIZE])
     barcode_string_ascii[string_index] = '\0';
 
     return barcode_string_ascii;
-}
+} /* scale_down_barcode() */
 
 // reverse string
 char *
@@ -238,7 +237,7 @@ string_reverse(char * string)
 
     return reverse_string;
 
-}
+} /* string_reverse() */
 
 // convert barcode ascii to barcode value
 char *
@@ -270,7 +269,7 @@ convert_barcode (char * barcode_string)
 
     return barcode_value;
 
-}
+} /* convert_barcode() */
 
 void
 reset_barcode_array () 
@@ -279,22 +278,25 @@ reset_barcode_array ()
     g_index = 0;
     g_barcode_detected = false;
     printf("Barcode array reset due to inactivity.\n");
-}
+} /* reset_barcode_array() */
 
 void
 update_last_barcode_detection_time () 
 {
     last_barcode_detection_time = time_us_64();
-}
+} /* update_last_barcode_detection_time() */
 
 // Call this function periodically
 void
 check_and_reset_barcode_array ()
 {
-    if ((time_us_64() - last_barcode_detection_time) > BARCODE_RESET_TIMEOUT_MS * 1000) {
+    if ((time_us_64() - last_barcode_detection_time) > BARCODE_RESET_TIMEOUT_MS * 1000) 
+    {
+
         reset_barcode_array();
+
     }
-}
+} /* check_and_reset_barcode_array() */
 
 bool
 repeating_barcode_clear_callback_isr (struct repeating_timer *p_timer) 
@@ -302,49 +304,6 @@ repeating_barcode_clear_callback_isr (struct repeating_timer *p_timer)
     // Periodically check and reset barcode array
     check_and_reset_barcode_array();
     return true;
-}
+} /* repeating_barcode_clear_callback_isr() */
 
-// process and print barcode
-// void
-// process_and_print_barcode () 
-// {
-
-//     // if all barcode ascii is collected
-//     if (g_barcode[18] != 0) 
-//     {
-
-//         // temp barcode array
-//         int temp_barcode[TEMP_ARRAY_SIZE] = {0};
-
-//         // copy barcode array from index 10 to 18, to temp barcode array
-//         memcpy(temp_barcode, &g_barcode[10], sizeof(temp_barcode));
-
-//         printf("temp barcode: ");
-//         for (int i = 0; i < TEMP_ARRAY_SIZE; i++) 
-//         {
-
-//             printf("[%d]", temp_barcode[i]);
-
-//         }
-
-//         printf("\n");
-
-//         // scale down barcode & store in string
-//         char * barcode_ascii_string = scale_down_barcode(temp_barcode);
-//         printf("%s\n", barcode_ascii_string);
-
-//         // convert barcode ascii to barcode value
-//         char * barcode_value_string = convert_barcode(barcode_ascii_string);
-
-//         // print barcode value
-//         printf("%s\n", barcode_value_string);
-
-//         // reset g_index
-//         g_index = 0;
-
-//         // clear barcode array
-//         memset(g_barcode, 0, sizeof(g_barcode));
-
-//     }
-
-// }
+/*** end of file ***/

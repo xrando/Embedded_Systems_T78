@@ -5,13 +5,6 @@ add_executable(
     barcode_module.c
     main.c
     barcode_module.h
-    ../line_sensor/line_sensor.c
-    ../web-ui/wifi.c
-    ../web-ui/wifi.h
-    ../web-ui/htmldata.c
-    ../web-ui/ssi.h
-    ../web-ui/lwipopts.h
-    ../web-ui/cgi.h
 )
 
 

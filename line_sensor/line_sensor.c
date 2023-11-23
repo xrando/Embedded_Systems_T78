@@ -107,7 +107,7 @@ void sensor_isr (uint gpio, uint32_t events)
                 speed_of_right_wheel = calculate_speed(time_difference);
                 // right_wheel_pid = calculate_pid(speed_of_right_wheel, 120, 0, 0); // Adjust desired_speed as needed
                 // printf("Right wheel pid: %.2f\n", right_wheel_pid);
-                rightTotalDistance += DISTANCE_BETWEEN_NOTCHES_CM;
+                right_motor_distance += DISTANCE_BETWEEN_NOTCHES_CM;
             }
             break;
         case LEFT_POLLING_PIN:
@@ -119,7 +119,7 @@ void sensor_isr (uint gpio, uint32_t events)
                 speed_of_left_wheel = calculate_speed(time_difference);
                 // float left_wheel_pid = calculate_pid(speed_of_left_wheel, 120, 0, 0); // Adjust desired_speed as needed
                 // printf("Left wheel pid before: %.2f\n", left_wheel_pid);
-                leftTotalDistance += DISTANCE_BETWEEN_NOTCHES_CM;
+                left_motor_distance += DISTANCE_BETWEEN_NOTCHES_CM;
             }
             break;
 

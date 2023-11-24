@@ -36,8 +36,6 @@
 #define MY511_OUT_Y_L_M            0x08
 #define MY511_SR_REG_M             0x09
 
-
-// test
 extern bool  set_initial_heading; 
 extern bool  is_initial_heading_set; 
 extern float curr_heading;

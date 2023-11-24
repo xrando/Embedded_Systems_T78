@@ -12,9 +12,8 @@
 
 #include "magnetometer.h"
 
-float initial_heading = 0.0f;
-
-bool set_initial_heading = false; 
+float initial_heading     = 0.0f;
+bool  set_initial_heading = false; 
 
 /*!
  * @brief Initializes I2C for peripheral communication.
@@ -189,36 +188,29 @@ magnetometer_data read_and_calculate_heading ()
 void
 monitor_magnetometer () 
 {
-    // for (;;) 
-    // {
     magnetometer_data mag_data = read_and_calculate_heading();
 
-    // call function to check if boundary is hit
     check_boundary_hit(&mag_data);
 
     printf("Mag. X = %d, Y = %d, Z = %d, Heading = %.2f°, Direction = %s\n",
             mag_data.mag[0], mag_data.mag[1], mag_data.mag[2], 
             mag_data.heading, mag_data.direction);
     sleep_ms(200);
-    // }
 }
 
-// void check_boundary_hit(magnetometer_data *data) 
-// {
-//     float heading_difference = fabs(data->heading - initial_heading);
-//     if (heading_difference > 90.0) 
-//     {
-//         data->hit_boundary = true;
-//     } else 
-//     {
-//         data->hit_boundary = false;
-//     }
-// }
-
+/*!
+ * @brief Categorizes current heading relative to an initial heading.
+ *
+ * Calculates the difference between the current and initial headings, then
+ * categorizes this heading into FRONT, RIGHT, BACK, LEFT, or UNKNOWN_DIRECTION.
+ * This assists in determining the device's orientation relative to the
+ * initial heading.
+ */
 void 
 check_boundary_hit (magnetometer_data *data) 
 {
-    float heading_difference = fmod(fabs(data->heading - initial_heading + 360.0), 360.0);
+    float heading_difference = fmod(fabs(data->heading - initial_heading
+                                    + 360.0), 360.0);
 
     if (heading_difference <= 45.0 || heading_difference > 315.0) 
     {
@@ -242,92 +234,94 @@ check_boundary_hit (magnetometer_data *data)
     }
 }
 
-// void check_boundary_hit(magnetometer_data *data) {
-//     // Calculate target headings for each direction based on current heading
-//     float target_right = fmod(data->heading + 90.0, 360.0);
-//     float target_left = fmod(data->heading - 90.0 + 360.0, 360.0);
-//     float target_back = fmod(data->heading + 180.0, 360.0);
+/*!
+ * @brief Checks heading is within a specified degree range of a target heading.
+ *
+ * For example, with a range of 1 degree, it checks if the heading is within
+ * 1 degree of the target, including across the 0/360 degree boundary.
+ *
+ * @param heading The heading value to check.
+ * @param target The target heading value.
+ * @param range The maximum allowed deviation (in degrees) from the target.
+ * @return True if heading is within specified range of the target, else false.
+ */
+bool 
+is_within_range (float heading, float target, float range) 
+{
+    float diff = fmod(fabs(heading - target + 360.0), 360.0);
+    return (diff <= range || diff >= (360.0 - range));
+}
 
-//     // Read the new current heading
-//     magnetometer_data new_data = read_and_calculate_heading();
-//     float new_heading = new_data.heading;
+/*!
+ * @brief Updates heading direction based on new heading data.
+ *
+ * This function calculates target headings for front, right, back, and left 
+ * directions based on the current heading. It then reads a new heading and 
+ * updates the heading direction if the new heading aligns closely with any
+ * of the target directions.
+ */
+void 
+update_heading_direction (magnetometer_data *data) 
+{
+    // Calculate target headings for each direction based on current heading
+    float target_right = fmod(data->heading + 90.0, 360.0);
+    float target_left = fmod(data->heading - 90.0 + 360.0, 360.0);
+    float target_back = fmod(data->heading + 180.0, 360.0);
 
-//     // Determine the relative direction based on the new heading
-//     if (is_within_range(new_heading, data->heading, 1.0)) {
-//         data->heading_direction = FRONT;
-//     } else if (is_within_range(new_heading, target_right, 1.0)) {
-//         data->heading_direction = RIGHT;
-//     } else if (is_within_range(new_heading, target_back, 1.0)) {
-//         data->heading_direction = BACK;
-//     } else if (is_within_range(new_heading, target_left, 1.0)) {
-//         data->heading_direction = LEFT;
-//     } else {
-//         data->heading_direction = UNKNOWN_DIRECTION;
-//     }
-// }
+    // Read the new current heading
+    magnetometer_data new_data = read_and_calculate_heading();
+    float new_heading = new_data.heading;
 
-// bool is_within_range(float heading, float target, float range) {
-//     float diff = fmod(fabs(heading - target + 360.0), 360.0);
-//     return (diff <= range || diff >= (360.0 - range));
-// }
+    // Determine the relative direction based on the new heading
+    if (is_within_range(new_heading, data->heading, 1.0)) 
+    {
+        data->heading_direction = FRONT;
+    } 
+    else if (is_within_range(new_heading, target_right, 1.0)) 
+    {
+        data->heading_direction = RIGHT;
+    } else if (is_within_range(new_heading, target_back, 1.0)) 
+    {
+        data->heading_direction = BACK;
+    } 
+    else if (is_within_range(new_heading, target_left, 1.0)) 
+    {
+        data->heading_direction = LEFT;
+    } 
+    else 
+    {
+        data->heading_direction = UNKNOWN_DIRECTION;
+    }
+}
 
+/*!
+ * @brief Sets the initial heading based on the current heading data.
+ *
+ * This function reads the current heading from a magnetometer and sets it as
+ * the initial heading. This initial heading is then used as a reference for 
+ * future orientation or direction calculations. The function also marks that
+ * the initial heading has been set.
+ */
 void 
 setup_init_heading () 
 {
-    // Assume we have a function to get the current heading
     magnetometer_data current_data = read_and_calculate_heading();
-    initial_heading = current_data.heading;
-    set_initial_heading = true;
+    initial_heading                = current_data.heading;
+    set_initial_heading            = true;
 }
 
-float get_current_heading() {
+/*!
+ * @brief Retrieves the current heading from the magnetometer.
+ *
+ * This function reads the latest data from the magnetometer and returns the
+ * current heading value. It is useful for obtaining the most recent orientation
+ * of the device as indicated by the magnetometer.
+ *
+ * @return The current heading value from the magnetometer data.
+ */
+float 
+get_current_heading () 
+{
     magnetometer_data current_data = read_and_calculate_heading();
     return current_data.heading;
 }
-
-// void 
-// turn_fixed_degree(Turn_Direction direction) 
-// {
-//     magnetometer_data current_data = read_and_calculate_heading();
-//     float current_heading = current_data.heading;
-//     float target_heading;
-
-//     // Determine the target heading based on the turn direction
-//     // Need to stop after that
-//     switch (direction) 
-//     {
-//         case TURN_LEFT:
-//             // Turn left 90 degrees
-//             target_heading = fmod(current_heading - 90.0f, 360.0f);
-//             printf("It is turning right!!\n");
-//             break;
-//         case TURN_RIGHT:
-//             // Turn right 90 degrees
-//             target_heading = fmod(current_heading + 90.0f, 360.0f);
-//             printf("It is turning left!!\n");
-//             break;
-//         case TURN_FORWARD:
-//             // Keep the same heading
-//             target_heading = current_heading;
-//             printf("It is going forward!!\n");
-//             break;
-//         case TURN_BACKWARD:
-//             // Turn 180 degrees to face the opposite direction
-//             target_heading = fmod(current_heading + 180.0f, 360.0f);
-//             printf("It is going backward!!\n");
-//             break;
-//         default:
-//             // Invalid direction, handle error
-//             return;
-//     }
-
-//     if (target_heading < 0)
-//     {
-//         target_heading += 360.0f; // Ensure the target heading is positive
-//     } 
-
-//     // Implement the control mechanism here to physically turn the device
-//     // For example: turn_device_to_heading(target_heading);
-
-//     // ... Rest of the function to verify the orientation and adjust if necessary
-// }

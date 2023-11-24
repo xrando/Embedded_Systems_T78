@@ -11,16 +11,16 @@
 #define MAGNETOMETER_H
 
 #include <stdint.h>
-
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
+
 #include "pico/stdlib.h"
 #include "pico/binary_info.h"
 #include "hardware/i2c.h"
 
-#define CUSTOM_I2C_SDA_PIN 12  // GP12 for SDA
-#define CUSTOM_I2C_SCL_PIN 13  // GP13 for SCL
+#define CUSTOM_I2C_SDA_PIN 12  
+#define CUSTOM_I2C_SCL_PIN 13  
 #define MAGNETOMETER_ADDR  0x1E  
 #define i2c_default_port   i2c0
 
@@ -36,11 +36,10 @@
 #define MY511_OUT_Y_L_M            0x08
 #define MY511_SR_REG_M             0x09
 
-extern float initial_heading;
-extern bool set_initial_heading; 
-
+extern bool  set_initial_heading; 
+extern bool  is_initial_heading_set; 
 extern float curr_heading;
-extern bool  is_initial_heading_set; // Flag to check if initial heading is set
+extern float initial_heading;
 
 typedef enum 
 {
@@ -56,20 +55,20 @@ typedef struct
     int16_t      mag[3];
     float        heading;
     const char * direction;
-    // bool         hit_boundary; 
-    directions heading_direction; // New field for direction as enum
+    directions heading_direction; 
 } magnetometer_data;
 
 // Function prototypes
 void init_i2c();
 void init_magnetometer();
-void monitor_magnetometer();
 void magnetometer_read_raw(int16_t mag[3]);
-void calculate_heading(magnetometer_data *data);
 const char* heading_direction(float heading);
+void calculate_heading(magnetometer_data *data);
 magnetometer_data read_and_calculate_heading();
-void check_boundary_hit(magnetometer_data *data); 
+void monitor_magnetometer();
+void check_boundary_hit(magnetometer_data *data);
 bool is_within_range(float heading, float target, float range);
+void update_heading_direction(magnetometer_data *data);
 void setup_init_heading();
 float get_current_heading();
 

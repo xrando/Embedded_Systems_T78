@@ -1,34 +1,27 @@
-// motor.c
-
 #include "motor.h"
-#include "pico/stdlib.h"
-#include "hardware/pwm.h"
-#include "hardware/gpio.h"
-#include <stdio.h>
-#include <stdint.h> // Library for uint64_t data type
-
 
 // PID constants
 float Kp = 0.1f;
-int Ki = 10;
-int Kd = 1;
+int   Ki = 10;
+int   Kd = 1;
 
 // Variables to store the distance travelled by the wheels individually
+float left_motor_distance  = 0.0f;
 float right_motor_distance = 0.0f;
-float left_motor_distance = 0.0f;
 
 // Variables to store the speed of the wheels
+float speed_of_left_wheel  = 0.0f;
 float speed_of_right_wheel = 0.0f;
-float speed_of_left_wheel = 0.0f;
 
 // Variables for PID calculation and time
-float right_wheel_pid = 0.0f;
-uint64_t current_time = 0.0f;
-uint64_t right_last_time = 0.0f;
-uint64_t left_last_time = 0.0f;
+float right_wheel_pid      = 0.0f;
+uint64_t current_time      = 0.0f;
+uint64_t left_last_time    = 0.0f;
+uint64_t right_last_time   = 0.0f;
 
 // Initialize the motor and IR sensors for wheel encoders
-void motor_sensor_init()
+void 
+motor_sensor_init ()
 {
     // Set GPIO 0 and 1 to run PWM
     gpio_set_function(0, GPIO_FUNC_PWM);
@@ -66,7 +59,9 @@ void motor_sensor_init()
 }
 
 // Function to move the car backward
-void backward() {
+void 
+backward () 
+{
     gpio_pull_down(LEFT_INPUT_PIN);
     gpio_pull_up(LEFT_INPUT_PIN_2);
     gpio_pull_down(RIGHT_INPUT_PIN);
@@ -74,7 +69,9 @@ void backward() {
 }
 
 // Function to move the car forward
-void forward() {
+void 
+forward () 
+{
     gpio_pull_up(LEFT_INPUT_PIN);
     gpio_pull_down(LEFT_INPUT_PIN_2);
     gpio_pull_up(RIGHT_INPUT_PIN);
@@ -82,7 +79,9 @@ void forward() {
 }
 
 // Function to turn the car right
-void turn_right() {
+void 
+turn_right () 
+{
     gpio_pull_down(LEFT_INPUT_PIN);
     gpio_pull_up(LEFT_INPUT_PIN_2);
     gpio_pull_up(RIGHT_INPUT_PIN);
@@ -90,7 +89,9 @@ void turn_right() {
 }
 
 // Function to turn the car left
-void turn_left() {
+void 
+turn_left () 
+{
     gpio_pull_up(LEFT_INPUT_PIN);
     gpio_pull_down(LEFT_INPUT_PIN_2);
     gpio_pull_down(RIGHT_INPUT_PIN);
@@ -98,20 +99,26 @@ void turn_left() {
 }
 
 // Function to slow down the car
-void slow_down(int current_speed) {
-        if (current_speed >= 4) {
-            return;
-        }
-        // Slows down the motor by 25% every iteration
-        int target_speed = current_speed + 1;
-        while (current_speed < target_speed) {
-            set_speed(++current_speed);
-            sleep_ms(1000);
+void 
+slow_down (int current_speed) 
+{
+    if (current_speed >= 4) 
+    {
+        return;
+    }
+    // Slows down the motor by 25% every iteration
+    int target_speed = current_speed + 1;
+    while (current_speed < target_speed) 
+    {
+        set_speed(++current_speed);
+        sleep_ms(1000);
     }
 }
 
 // Function to stop the car
-void stop() {
+void 
+stop () 
+{
     gpio_pull_up(LEFT_INPUT_PIN);
     gpio_pull_up(LEFT_INPUT_PIN_2);
     gpio_pull_up(RIGHT_INPUT_PIN);
@@ -119,7 +126,9 @@ void stop() {
 }
 
 // Function to set the speed of the motor using Duty Cycle
-void set_speed(int speed_level) {
+void 
+set_speed (int speed_level) 
+{
     uint slice_num = pwm_gpio_to_slice_num(0);
 
     pwm_set_wrap(slice_num, 12500);
@@ -135,12 +144,13 @@ void set_speed(int speed_level) {
 }
 
 // PID controller function
-float calculate_pid(float current_speed, float desired_speed,
-                        float previous_error, float integration_sum) {
-
+float 
+calculate_pid (float current_speed, float desired_speed,
+               float previous_error, float integration_sum) 
+{
     // Calculate error terms
-    float error = desired_speed - current_speed;
-    float integral = integration_sum + error;
+    float error      = desired_speed - current_speed;
+    float integral   = integration_sum + error;
     float derivative = error - previous_error;
 
     // Calculate PID value
@@ -150,8 +160,10 @@ float calculate_pid(float current_speed, float desired_speed,
 }
 
 // Function to calculate the speed of the wheels
-float calculate_speed(float time_difference) {
+float 
+calculate_speed (float time_difference) 
+{
     float speed = DISTANCE_BETWEEN_NOTCHES_CM / (time_difference / 1000000.0);
+
     return speed;
 }
-

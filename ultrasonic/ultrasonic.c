@@ -1,6 +1,5 @@
 #include "ultrasonic.h"
 
-
 void 
 init_ultrasonic (uint trigPin, uint echoPin)
 {
@@ -33,7 +32,7 @@ get_pulse (uint trigPin, uint echoPin)
     }
 
     float pulseLength = time2 - time1;
-    
+
     return pulseLength;
 }
 

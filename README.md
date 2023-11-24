@@ -9,7 +9,7 @@
 ![image](https://github.com/xrando/Embedded_Systems_T78/assets/56796695/277a9d11-a450-4150-8719-3a56efd52ccc)
 
 **Magnetometer**
-![image](https://github.com/xrando/Embedded_Systems_T78/assets/56796695/512302db-a2ea-4fd1-93ef-be753db36f3a)
+![image](https://github.com/xrando/Embedded_Systems_T78/blob/main/Diagrams/Flowcharts/magneto_flowchart.jpg?raw=true)
 
 **Motor**
 ![image](https://github.com/xrando/Embedded_Systems_T78/assets/56796695/1dc24185-64b5-4a8f-86f4-8dc0827a7d17)
@@ -33,7 +33,10 @@
 
 ---
 ### Sequence Diagram
-![image](https://github.com/xrando/Embedded_Systems_T78/assets/56796695/b10115b0-dcdc-4272-8d76-a672653a04fc)
+![image](https://github.com/xrando/Embedded_Systems_T78/blob/main/Diagrams/sequence_diagram.jpg?raw=true)
+
+### Block diagram
+![image](https://github.com/xrando/Embedded_Systems_T78/blob/main/Diagrams/block_diagram.jpg?raw=true)
 
 
 

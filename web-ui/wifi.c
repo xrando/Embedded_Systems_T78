@@ -9,18 +9,21 @@
 //const char WIFI_SSID[] = "TimoGS21";
 //const char WIFI_PASSWORD[] = "eueo9438";
 
-void wifi_init(){
+void 
+wifi_init ()
+{
     stdio_init_all();
-
     cyw43_arch_init();
-
     cyw43_arch_enable_sta_mode();
 
     // Connect to the WiFI network - loop until connected
-    while(cyw43_arch_wifi_connect_timeout_ms(WIFI_SSID, WIFI_PASSWORD, CYW43_AUTH_WPA2_AES_PSK, 30000) != 0){
+    while(cyw43_arch_wifi_connect_timeout_ms(WIFI_SSID, WIFI_PASSWORD,
+                                             CYW43_AUTH_WPA2_AES_PSK, 30000)
+                                             != 0)
+    {
         printf("Attempting to connect...\n");
     }
-    // Print a success message once connected
+
     printf("Connected! \n");
 
     // Initialise web server

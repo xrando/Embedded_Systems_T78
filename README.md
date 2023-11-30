@@ -43,7 +43,7 @@ Efficient motor control is crucial for the car's movement and agility. Our motor
 Ultrasonic sensors play a pivotal role in detecting obstacles and objects in the car's vicinity, contributing to real-time decision-making to avoid collisions.
 
 
-### Flowcharts
+## Flowcharts
 **Barcode**
 ![image](https://github.com/xrando/Embedded_Systems_T78/assets/56796695/13552d2f-2db4-4628-8bca-72aa8c6590be)
 
@@ -60,7 +60,7 @@ Ultrasonic sensors play a pivotal role in detecting obstacles and objects in the
 ![image](https://github.com/xrando/Embedded_Systems_T78/assets/56796695/0e6b970f-4064-4791-af04-affa58c235aa)
 
 --- 
-### Dataflow
+## Dataflow
 **Barcode scanning**
 ![image](https://github.com/xrando/Embedded_Systems_T78/assets/56796695/79bd0ae1-340b-4cf8-b6e8-23599b218b5d)
 
@@ -74,10 +74,10 @@ Ultrasonic sensors play a pivotal role in detecting obstacles and objects in the
 ![image](https://github.com/xrando/Embedded_Systems_T78/assets/56796695/7ba8cbdc-f0ba-4f2c-bfe1-fcca47dfd925)
 
 ---
-### Sequence Diagram
+## Sequence Diagram
 ![image](https://github.com/xrando/Embedded_Systems_T78/blob/main/Diagrams/sequence_diagram.jpg?raw=true)
 
-### Block diagram
+## Block diagram
 ![image](https://github.com/xrando/Embedded_Systems_T78/blob/main/Diagrams/block_diagram.jpg?raw=true)
 
 

@@ -1,7 +1,4 @@
-# Embedded_Systems_T78
-## Embedded systems project group repository for team 78
-
-# Autonomous Self-Driving Car Embedded Systems Project
+# Autonomous Self-Driving Car Embedded Systems Project by Team 78
 
 Welcome to Team 78's repository for our cutting-edge embedded systems project – an autonomous self-driving car. In this project, we aim to harness the power of embedded systems to create a sophisticated and intelligent vehicle capable of navigating its environment without human intervention. Our team has meticulously designed and implemented various components, each contributing to the overall functionality of the autonomous car.
 

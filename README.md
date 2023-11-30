@@ -20,28 +20,35 @@ The sequence diagram offers a dynamic view of the interactions between various c
 
 Our block diagram provides a high-level overview of the system architecture, highlighting the interconnections between different modules. This visual representation simplifies the understanding of the overall structure of our autonomous self-driving car.
 
-## Project Components
+## Project Components and Task Distribution
 
-### Barcode Scanning
+### Barcode Scanning - done by Benjamin
 
 Implementing a barcode scanning system enables the car to identify and interpret barcodes, enhancing its ability to recognize and respond to specific markers in its environment.
 
-### Line Tracing
+### Line Tracing - done by Benjamin
 
 The line tracing component ensures the car can follow predefined paths accurately, making it capable of navigating through designated routes with precision.
 
-### Magnetometer Integration
+### Magnetometer - done by Jovian
 
 By integrating a magnetometer, our self-driving car can sense and respond to magnetic fields, adding an extra layer of environmental awareness for improved navigation.
 
-### Motor Control
+### Motor Control - done by Timothy and Peter
 
 Efficient motor control is crucial for the car's movement and agility. Our motor control system ensures precise and responsive actions based on the input from various sensors.
 
-### Ultrasonic Sensors
+### Ultrasonic Sensors - done by Zheng Wei (Sean)
 
 Ultrasonic sensors play a pivotal role in detecting obstacles and objects in the car's vicinity, contributing to real-time decision-making to avoid collisions.
 
+### Web Server in pico w - done by Zheng Wei (Sean)
+
+Web server driver in raspberry pico w for displaying the map and and other information captured on the autonomous self driving car, like the barcode character scanned.
+
+## Integration of Project Components
+
+The integration was done by both Jovian and Benjamin.
 
 ## Flowcharts
 **Barcode**
@@ -80,12 +87,25 @@ Ultrasonic sensors play a pivotal role in detecting obstacles and objects in the
 ## Block diagram
 ![image](https://github.com/xrando/Embedded_Systems_T78/blob/main/Diagrams/block_diagram.jpg?raw=true)
 
+## How to run the program
+- Use pico arm compiler to build the project folder.
+- Go to project build directory and extract the uf2 file and run this on the raspberry pico-w on the autonomous car.
 
 
+## References or links that we used
+Initialization of magnetometer guide: <br> 
+https://github.com/ControlEverythingCommunity/LSM303DLHC/blob/master/C/LSM303DLHC.c
+
+Some readings about magnetometer: <br>
+https://www.digikey.com/en/maker/projects/how-to-calibrate-a-magnetometer/50f6bc8f36454a03b664dca30cf33a8b
+<br>
+https://youtu.be/eqZgxR6eRjo?si=f-6YrOMycQwiiu0b
 
 
+Web ui reference guide: <br>
+https://www.youtube.com/watch?v=C_O0MXGBHsw
 
-
-
-
-
+Barcode tracing driver documentation reference source: <br>
+https://www.barcodefaq.com/1d/code-39/
+<br>
+https://www.dcode.fr/barcode-39#f1

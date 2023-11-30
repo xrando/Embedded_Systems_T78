@@ -38,7 +38,7 @@ init_i2c ()
     // Register GPIO pins used for I2C in the binary information
     bi_decl(bi_2pins_with_func(CUSTOM_I2C_SDA_PIN, CUSTOM_I2C_SCL_PIN,
                                GPIO_FUNC_I2C));
-}
+} /* init_i2c() */
 
 /*!
  * @brief Initializes the magnetometer for data acquisition.
@@ -65,7 +65,7 @@ init_magnetometer ()
     // Continuous conversion mode
     uint8_t buf[] = {MY511_MR_REG_M, MY511_CRA_REG_M};  
     i2c_write_blocking(i2c_default_port, MAGNETOMETER_ADDR, buf, 2, false);
-}
+} /* init_magnetometer() */
 
 /*!
  * @brief Reads raw data from the magnetometer.
@@ -95,7 +95,7 @@ magnetometer_read_raw (int16_t mag[3])
     mag[0] = (int16_t) (buffer[0] << 8) | buffer[1];  // X
     mag[1] = (int16_t) (buffer[4] << 8) | buffer[5];  // Y
     mag[2] = (int16_t) (buffer[2] << 8) | buffer[3];  // Z
-}
+} /* magnetometer_read_raw() */
 
 /*!
  * @brief Determines the compass direction from a given heading angle.
@@ -113,23 +113,56 @@ magnetometer_read_raw (int16_t mag[3])
 const char *
 heading_direction (float heading) 
 {
+    
     if (heading >= 22.5f && heading < 67.5f)
+    {
+
         return "Northeast";
+
+    }
     else if (heading >= 67.5f && heading < 112.5f)
+    {
+
         return "East";
+
+    }
     else if (heading >= 112.5f && heading < 157.5f)
+    {
+
         return "Southeast";
+
+    }
     else if (heading >= 157.5f && heading < 202.5f)
+    {
+
         return "South";
+
+    }
     else if (heading >= 202.5f && heading < 247.5f)
+    {
+
         return "Southwest";
+
+    }
     else if (heading >= 247.5f && heading < 292.5f)
+    {
+        
         return "West";
+
+    }
     else if (heading >= 292.5f && heading < 337.5f)
+    {
+
         return "Northwest";
+        
+    }
     else
-        return "North"; // Covers North and remaining degrees towards Northeast
-}
+    {
+        
+        return "North"; 
+
+    }    
+} /* heading_direction() */
 
 /*!
  * @brief Calculates and stores the heading and compass direction from
@@ -147,15 +180,15 @@ calculate_heading(magnetometer_data *data)
 {
     data->heading = atan2(data->mag[1], data->mag[0]) * (180.0f / M_PI);
 
-    // Ensure heading is between 0 and 360 degrees
     if (data->heading < 0)
     {
+
         data->heading += 360.0f;
+        
     } 
 
-    // Convert heading to a direction (e.g. North, South, East, West, etc.)
     data->direction = heading_direction(data->heading);
-}
+} /* calculate_heading() */
 
 /*!
  * @brief Reads raw magnetometer data and calculates the heading and direction.
@@ -174,8 +207,9 @@ magnetometer_data read_and_calculate_heading ()
     magnetometer_data data;
     magnetometer_read_raw(data.mag);
     calculate_heading(&data);
+
     return data;
-}
+} /* read_and_calculate_heading() */
 
 /*!
  * @brief Continuously monitors and outputs magnetometer readings.
@@ -196,7 +230,7 @@ monitor_magnetometer ()
             mag_data.mag[0], mag_data.mag[1], mag_data.mag[2], 
             mag_data.heading, mag_data.direction);
     sleep_ms(200);
-}
+} /* monitor_magnetometer() */
 
 /*!
  * @brief Categorizes current heading relative to an initial heading.
@@ -214,25 +248,35 @@ check_boundary_hit (magnetometer_data *data)
 
     if (heading_difference <= 45.0 || heading_difference > 315.0) 
     {
+
         data->heading_direction = FRONT;
+
     } 
     else if (heading_difference > 45.0 && heading_difference <= 135.0) 
     {
+
         data->heading_direction = RIGHT;
+
     } 
     else if (heading_difference > 135.0 && heading_difference <= 225.0) 
     {
+
         data->heading_direction = BACK;
+        
     } 
     else if (heading_difference > 225.0 && heading_difference <= 315.0) 
     {
+
         data->heading_direction = LEFT;
+
     } 
     else 
     {
+        
         data->heading_direction = UNKNOWN_DIRECTION;
+        
     }
-}
+} /* check_boundary_hit() */
 
 /*!
  * @brief Checks heading is within a specified degree range of a target heading.
@@ -249,8 +293,9 @@ bool
 is_within_range (float heading, float target, float range) 
 {
     float diff = fmod(fabs(heading - target + 360.0), 360.0);
+
     return (diff <= range || diff >= (360.0 - range));
-}
+} /* is_within_range() */
 
 /*!
  * @brief Updates heading direction based on new heading data.
@@ -263,36 +308,45 @@ is_within_range (float heading, float target, float range)
 void 
 update_heading_direction (magnetometer_data *data) 
 {
-    // Calculate target headings for each direction based on current heading
     float target_right = fmod(data->heading + 90.0, 360.0);
-    float target_left = fmod(data->heading - 90.0 + 360.0, 360.0);
-    float target_back = fmod(data->heading + 180.0, 360.0);
+    float target_left  = fmod(data->heading - 90.0 + 360.0, 360.0);
+    float target_back  = fmod(data->heading + 180.0, 360.0);
 
     // Read the new current heading
-    magnetometer_data new_data = read_and_calculate_heading();
-    float new_heading = new_data.heading;
+    magnetometer_data new_data    = read_and_calculate_heading();
+    float             new_heading = new_data.heading;
 
-    // Determine the relative direction based on the new heading
     if (is_within_range(new_heading, data->heading, 1.0)) 
     {
+
         data->heading_direction = FRONT;
+
     } 
     else if (is_within_range(new_heading, target_right, 1.0)) 
     {
+
         data->heading_direction = RIGHT;
+
     } else if (is_within_range(new_heading, target_back, 1.0)) 
     {
+
         data->heading_direction = BACK;
+
     } 
     else if (is_within_range(new_heading, target_left, 1.0)) 
     {
+
         data->heading_direction = LEFT;
+
     } 
     else 
     {
+
         data->heading_direction = UNKNOWN_DIRECTION;
+
     }
-}
+    
+} /* update_heading_direction() */
 
 /*!
  * @brief Sets the initial heading based on the current heading data.
@@ -308,7 +362,7 @@ setup_init_heading ()
     magnetometer_data current_data = read_and_calculate_heading();
     initial_heading                = current_data.heading;
     set_initial_heading            = true;
-}
+} /* setup_init_heading() */
 
 /*!
  * @brief Retrieves the current heading from the magnetometer.
@@ -323,5 +377,8 @@ float
 get_current_heading () 
 {
     magnetometer_data current_data = read_and_calculate_heading();
+
     return current_data.heading;
-}
+} /* get_current_heading() */
+
+/*** end of file ***/

@@ -1,12 +1,9 @@
-// main.c
-
 #include <stdio.h>
 #include <math.h>
 #include "pico/stdlib.h"
 #include "hardware/pwm.h"
 #include "hardware/gpio.h"
 #include "motor.h"
-
 
 // PID constants
 float Kp = 0.1;
@@ -34,14 +31,6 @@ int main() {
     motor_sensor_init();
     forward();
     sleep_ms(1000);
-    // backward();
-    // sleep_ms(1000);
-    // turn_left();
-    // sleep_ms(1000);
-    // forward();
-    // sleep_ms(2000);
-    // turn_right();
-    // sleep_ms(1000);
     slow_down(DUTY_CYCLE);
     sleep_ms(1000);
     set_speed(3);
@@ -53,17 +42,8 @@ int main() {
     stop();
     sleep_ms(1000);
 
-    /* Enable interrupts for the GPIO pin 14 and call the gpio_callback function
-    when the interrupt is triggered when the button is pressed */
-    // gpio_set_irq_enabled_with_callback(RIGHT_POLLING_PIN, GPIO_IRQ_EDGE_RISE,
-    // true, &gpio_callback);
-
-    /* Enable interrupts for the GPIO pin 15 and call the gpio_callback function
-    when the interrupt is triggered when the button is pressed*/
-    // gpio_set_irq_enabled_with_callback(LEFT_POLLING_PIN, GPIO_IRQ_EDGE_RISE,
-    // true, &gpio_callback);
-
-    while (1) {
+    for(;;)
+    {
         // Wait forever, until interrupt request (IRQ) is received
         printf("Speed of right wheel: %.2f cm/s\n", speed_of_right_wheel);
         printf("Speed of left wheel: %.2f cm/s\n", speed_of_left_wheel);

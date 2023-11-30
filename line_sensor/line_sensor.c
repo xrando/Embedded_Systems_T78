@@ -20,14 +20,19 @@ void line_sensor_isr (uint gpio, uint32_t events)
 
     if (gpio == LEFT_IR_SENSOR_PIN)
     {
+
         if (current_time - left_last_triggered > DEBOUNCE_TIME_USEC)
         {
+
             g_left_ir_triggered = gpio_get(LEFT_IR_SENSOR_PIN) == 0 ? true : false;
             left_last_triggered = current_time;
+
         }
+
     }
     else if (gpio == RIGHT_IR_SENSOR_PIN)
     {
+        
         if (current_time - right_last_triggered > DEBOUNCE_TIME_USEC)
         {
             g_right_ir_triggered = gpio_get(RIGHT_IR_SENSOR_PIN) == 0 ? true : false;
@@ -58,6 +63,7 @@ void sensor_isr (uint gpio, uint32_t events)
                 left_last_triggered = current_time;
             }
             break;
+
         case RIGHT_IR_SENSOR_PIN:
             // if passed debounce
             if (current_time - right_last_triggered > DEBOUNCE_TIME_USEC)
@@ -67,59 +73,39 @@ void sensor_isr (uint gpio, uint32_t events)
                 right_last_triggered = current_time;
             }
             break;
+
         case BARCODE_SENSOR_PIN:
-            // if passed debounce
-            if (debounce(gpio, events))
+            // Check for debounce
+            if (!debounce(gpio, events))
             {
-
-                // if line is white
-                if (gpio_get(BARCODE_SENSOR_PIN) == 0)
-                {
-
-                    // set state of barcode sensor
-                    printf("White line debounce\n");
-                    
-                    if (time_counter != 0u)
-                    {
-
-                        // stop counting time
-                        cancel_repeating_timer(&timer);
-                        // store in array
-                        g_barcode[g_index] = time_counter;
-                        g_index++;
-                        time_counter = 0;
-
-                    }
-                    // measure pulse width of black line
-                    add_repeating_timer_ms(-BARCODE_SENSE_TIME_INTERVAL_MS, repeating_timer_callback_isr, 
-                                        &time_counter, &timer);
-                    g_barcode_detected = true;
-                }
-                else
-                {
-
-                    // set state of barcode sensor
-                    printf("Black line debounce\n");
-                    if (time_counter != 0u)
-                    {
-
-                        // stop counting time
-                        cancel_repeating_timer(&timer);
-                        //printf("Final Time: %us\n", time_counter);
-                        // store in array
-                        g_barcode[g_index] = time_counter;
-                        g_index++;
-                        time_counter = 0;
-
-                    }
-                    // measure pulse width of white line
-                    add_repeating_timer_ms(-BARCODE_SENSE_TIME_INTERVAL_MS, repeating_timer_callback_isr, 
-                                    &time_counter, &timer);
-                    g_barcode_detected = false;
-
-                }
+                return;
             }
+            
+            // Update the last barcode detection time
+            update_last_barcode_detection_time();
+
+            // Determine the state of the barcode sensor
+            bool is_white_line = (gpio_get(BARCODE_SENSOR_PIN) == 0);
+
+            // Print the state for debugging
+            printf(is_white_line ? "White line debounce\n" : "Black line debounce\n");
+
+            // If there's an ongoing time count, stop it and store the value
+            if (time_counter != 0u)
+            {
+                cancel_repeating_timer(&timer);
+                g_barcode[g_index++] = time_counter;
+                time_counter = 0;
+            }
+
+            // Start a timer to measure the pulse width
+            add_repeating_timer_ms(-BARCODE_SENSE_TIME_INTERVAL_MS, repeating_timer_callback_isr, 
+                                &time_counter, &timer);
+
+            // Update the global state
+            g_barcode_detected = is_white_line;
             break;
+
         // motor isrs
         case RIGHT_POLLING_PIN:
             if (current_time - left_last_triggered > DEBOUNCE_TIME_USEC)
@@ -135,6 +121,7 @@ void sensor_isr (uint gpio, uint32_t events)
 
             }
             break;
+
         case LEFT_POLLING_PIN:
             if (current_time - left_last_triggered > DEBOUNCE_TIME_USEC)
             {
@@ -150,9 +137,9 @@ void sensor_isr (uint gpio, uint32_t events)
             }
             break;
 
-
         default:
             break;
+            
     }
 } /* sensor_isr() */
 

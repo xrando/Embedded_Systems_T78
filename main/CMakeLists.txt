@@ -1,6 +1,5 @@
 project(EMBEDDED_SYSTEMS_T78)
 
-# Create an executable file from the main.c in the main subdirectory
 add_executable(
     main
     main.c
@@ -9,9 +8,6 @@ add_executable(
     ../motor/motor.c
     ../ultrasonic/ultrasonic.c
     ../barcode_module/barcode_module.c
-    # ../web-ui/wifi.c
-
-    # Include other .c files as necessary
 )
 
 # pull in common dependencies
@@ -23,16 +19,13 @@ target_include_directories(main PRIVATE
     ${CMAKE_CURRENT_LIST_DIR}/../motor
     ${CMAKE_CURRENT_LIST_DIR}/../line_sensor
     ${CMAKE_CURRENT_LIST_DIR}/../ultrasonic
-    # ${CMAKE_CURRENT_LIST_DIR}/../barcode_module
-    # ${CMAKE_CURRENT_LIST_DIR}/../web-ui
-    # ... Add other directories as necessary
+    ${CMAKE_CURRENT_LIST_DIR}/../barcode_module
 )
 
-# enable usb output, enable uart output
+# enable usb output
 pico_enable_stdio_usb(main 1)
-pico_enable_stdio_uart(main 1)
 
-# Generate additional build output files (like .bin and .uf2)
+# create map/bin/hex file etc.
 pico_add_extra_outputs(main)
 
 # add url via pico_set_program_url

@@ -19,10 +19,10 @@
 #include "pico/binary_info.h"
 #include "hardware/i2c.h"
 
-#define CUSTOM_I2C_SDA_PIN 12  
-#define CUSTOM_I2C_SCL_PIN 13  
-#define MAGNETOMETER_ADDR  0x1E  
-#define i2c_default_port   i2c0
+#define CUSTOM_I2C_SDA_PIN         12  
+#define CUSTOM_I2C_SCL_PIN         13  
+#define MAGNETOMETER_ADDR          0x1E  
+#define i2c_default_port           i2c0
 
 // Define magneto registers values from LSM303DLHC (MY-511) datasheet 
 #define MY511_CRA_REG_M            0x00
@@ -73,3 +73,5 @@ void setup_init_heading();
 float get_current_heading();
 
 #endif 
+
+/*** end of file ***/

@@ -16,4 +16,6 @@ main()
     init_i2c();
     init_magnetometer();
     monitor_magnetometer();
-}
+} /* main() */
+
+/*** end of file ***/

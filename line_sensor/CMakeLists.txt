@@ -1,12 +1,19 @@
 project(EMBEDDED_SYSTEMS_T78)
 
-add_executable(line_sensor
+add_executable(
+        line_sensor
         line_sensor.c
-        main.c
         line_sensor.h
-        ../motor/motor.h
-        ../barcode_module/barcode_module.h
+        main.c
+        ../motor/motor.c
+        ../barcode_module/barcode_module.c
         )
+        
+# Specify the include directories
+target_include_directories(line_sensor PRIVATE
+        ${CMAKE_CURRENT_SOURCE_DIR}/../motor
+        ${CMAKE_CURRENT_SOURCE_DIR}/../barcode_module
+)
 
 # pull in common dependencies
 target_link_libraries(line_sensor pico_stdlib)

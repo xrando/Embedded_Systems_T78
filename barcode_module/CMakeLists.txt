@@ -7,7 +7,6 @@ add_executable(
     barcode_module.h
 )
 
-
 # pull in common dependencies
 target_link_libraries(barcode_module pico_stdlib)
 

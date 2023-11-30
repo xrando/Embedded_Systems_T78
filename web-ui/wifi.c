@@ -4,10 +4,7 @@
 #include "lwipopts.h"
 #include "ssi.h"
 #include "cgi.h"
-
-// WIFI Credentials - take care if pushing to github!
-//const char WIFI_SSID[] = "TimoGS21";
-//const char WIFI_PASSWORD[] = "eueo9438";
+#include "wifi.h"
 
 void 
 wifi_init ()
